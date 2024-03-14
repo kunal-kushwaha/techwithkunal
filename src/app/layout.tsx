@@ -12,16 +12,16 @@ const fontSerif = Source_Serif_4({
 });
 
 export const metadata: Metadata = {
-  title: 'NextJS Starter Template by Adarsh Dubey',
+  title: 'Kunal Kushwaha',
   description:
-    'Simple and easy to use nextjs 14 starter template made by Adarsh Dubey.',
-  metadataBase: new URL('https://nextjs.adarshdubey.com'),
+    'Kunal Kushwaha is a DevRel, DevOps engineer and a community builder..',
+  metadataBase: new URL('https://codewithkunal.com'),
   openGraph: {
-    title: 'NextJS Starter Template by Adarsh Dubey',
+    title: 'Kunal Kushwaha',
     description:
-      'Simple and easy to use nextjs 14 starter template made by Adarsh Dubey.',
-    url: 'https://nextjs.adarshdubey.com',
-    siteName: 'NextJS Starter Template by Adarsh Dubey',
+      'Kunal Kushwaha is a DevRel, DevOps engineer and a community builder..',
+    url: 'https://codewithkunal.com',
+    siteName: 'Kunal Kushwaha',
     images: {
       url: '/opengraph-image.png',
       width: 1920,
