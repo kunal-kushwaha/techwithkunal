@@ -26,7 +26,7 @@
 
 To start a new project using this starter kit, go to the template's github repo and click on "**Use this template**" button.
 
-Or, if you're more of a *terminal person*, simply run the following command in your terminal:
+Or, if you're more of a _terminal person_, simply run the following command in your terminal:
 
 ```bash
 git clone --depth=1 https://github.com/inclinedadarsh/nextjs-starter.git your-project-name
