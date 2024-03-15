@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter, Source_Serif_4 } from 'next/font/google';
 import './globals.css';
-import { ThemeProvider } from '@/components/theme-provider';
+// import { ThemeProvider } from '@/components/theme-provider';
 import { cn } from '@/lib/utils';
 
 const fontSans = Inter({ subsets: ['latin'], variable: '--font-sans' });
@@ -45,14 +45,18 @@ export default function RootLayout({
           fontSerif.variable
         )}
       >
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="light"
+        {
+          //<ThemeProvider               Keep it here for future use
+          // attribute="class"
+          // defaultTheme="light"
           // enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+          // disableTransitionOnChange
+          //>
+        }
+        {children}
+        {
+          //</ThemeProvider>
+        }
       </body>
     </html>
   );
