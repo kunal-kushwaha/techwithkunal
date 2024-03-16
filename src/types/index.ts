@@ -15,3 +15,7 @@ export interface NavbarProps extends React.HTMLAttributes<HTMLDivElement> {
 export interface HeaderProps extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;
 }
+
+export interface AboutProps extends React.HTMLAttributes<HTMLDivElement> {
+  className?: string;
+}
