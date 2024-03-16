@@ -11,3 +11,7 @@ export type NavLinksType = {
 export interface NavbarProps extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;
 }
+
+export interface HeaderProps extends React.HTMLAttributes<HTMLDivElement> {
+  className?: string;
+}
