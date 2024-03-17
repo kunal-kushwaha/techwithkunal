@@ -17,8 +17,6 @@ const formSchema = z.object({
   }),
 });
 
-// TODO: Add hashnode integration
-
 const Newsletter = ({ className, ...props }: NewsletterProps) => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -27,8 +25,36 @@ const Newsletter = ({ className, ...props }: NewsletterProps) => {
     },
   });
 
-  const onSubmit = (value: z.infer<typeof formSchema>) => {
+  const onSubmit = async (value: z.infer<typeof formSchema>) => {
     console.log(value);
+    const authToken = process.env.HASHNODE_AUTH_TOKEN!;
+
+    try {
+      const response = await fetch('https://gql.hashnode.com/graphql', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: authToken,
+        },
+        body: JSON.stringify({
+          query: `
+            mutation {
+              subscribeToNewsletter(input: {
+                publicationId: "635191d16e41e3b5f5561c1e"
+                email: "${value.email}"
+              }) {
+              status
+              }
+            }
+          `,
+        }),
+      });
+
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
   };
 
   return (
