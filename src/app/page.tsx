@@ -1,4 +1,5 @@
 import About from '@/components/About';
+import Courses from '@/components/Courses';
 import Header from '@/components/Header';
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Header />
       <About />
+      <Courses />
     </div>
   );
 }

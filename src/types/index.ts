@@ -19,3 +19,7 @@ export interface HeaderProps extends React.HTMLAttributes<HTMLDivElement> {
 export interface AboutProps extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;
 }
+
+export interface CoursesProps extends React.HTMLAttributes<HTMLDivElement> {
+  className?: string;
+}
