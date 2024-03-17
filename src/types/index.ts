@@ -65,3 +65,7 @@ type FooterLinksSection = {
 };
 
 export type FooterLinks = FooterLinksSection[];
+
+export interface NewsletterProps extends React.HTMLAttributes<HTMLDivElement> {
+  className?: string;
+}
