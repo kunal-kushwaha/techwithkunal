@@ -23,3 +23,8 @@ export interface AboutProps extends React.HTMLAttributes<HTMLDivElement> {
 export interface CoursesProps extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;
 }
+
+export interface SponsorshipsProps
+  extends React.HTMLAttributes<HTMLDivElement> {
+  className?: string;
+}
