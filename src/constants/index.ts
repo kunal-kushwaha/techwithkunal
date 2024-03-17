@@ -1,4 +1,5 @@
-import { NavLinksType } from '@/types';
+import { testimonial1Author, testimonial1Company } from '@/assets';
+import { NavLinksType, Testimonials } from '@/types';
 
 export const NAV_LINKS: NavLinksType = {
   links: [
@@ -45,3 +46,33 @@ export const NAV_LINKS_COURSE: NavLinksType = {
     url: 'mailto:kunalkushwaha@wemakedevs.org',
   },
 };
+
+export const TESTIMONIALS_HOME: Testimonials = [
+  {
+    text: 'Some great two liner testimonial here. Well, short but crisp is what makes the webpage look good.',
+    author: {
+      name: 'Candice Wu',
+      image: testimonial1Author,
+      description: 'Product Manager, Sisyphus',
+    },
+    company: testimonial1Company,
+  },
+  {
+    text: 'Some great two liner testimonial here. Well, short but crisp is what makes the webpage look good.',
+    author: {
+      name: 'Candice Wu',
+      image: testimonial1Author,
+      description: 'Product Manager, Sisyphus',
+    },
+    company: testimonial1Company,
+  },
+  {
+    text: 'Some great two liner testimonial here. Well, short but crisp is what makes the webpage look good.',
+    author: {
+      name: 'Candice Wu',
+      image: testimonial1Author,
+      description: 'Product Manager, Sisyphus',
+    },
+    company: testimonial1Company,
+  },
+];

@@ -1,3 +1,5 @@
+import { StaticImageData } from 'next/image';
+
 type NavLinkType = {
   name: string;
   url: string;
@@ -27,4 +29,22 @@ export interface CoursesProps extends React.HTMLAttributes<HTMLDivElement> {
 export interface SponsorshipsProps
   extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;
+}
+
+type Testimonial = {
+  text: string;
+  author: {
+    name: string;
+    description: string;
+    image: StaticImageData;
+  };
+  company: StaticImageData;
+};
+
+export type Testimonials = Testimonial[];
+
+export interface TestimonialsProps
+  extends React.HTMLAttributes<HTMLDivElement> {
+  className?: string;
+  testimonials: Testimonials;
 }
