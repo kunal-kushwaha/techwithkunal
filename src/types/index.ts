@@ -48,3 +48,20 @@ export interface TestimonialsProps
   className?: string;
   testimonials: Testimonials;
 }
+
+export interface FooterProps extends React.HTMLAttributes<HTMLDivElement> {
+  className?: string;
+}
+
+type SingleFooterLink = {
+  name: string;
+  url: string;
+  isNew?: boolean;
+};
+
+type FooterLinksSection = {
+  name: string;
+  links: SingleFooterLink[];
+};
+
+export type FooterLinks = FooterLinksSection[];
