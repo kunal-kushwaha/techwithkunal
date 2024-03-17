@@ -2,6 +2,8 @@ import About from '@/components/About';
 import Courses from '@/components/Courses';
 import Header from '@/components/Header';
 import Sponsorships from '@/components/Sponsorships';
+import Testimonials from '@/components/Testimonials';
+import { TESTIMONIALS_HOME } from '@/constants';
 
 export default function Home() {
   return (
@@ -10,6 +12,7 @@ export default function Home() {
       <About />
       <Courses />
       <Sponsorships />
+      <Testimonials testimonials={TESTIMONIALS_HOME} />
     </div>
   );
 }
