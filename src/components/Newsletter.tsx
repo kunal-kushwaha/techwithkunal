@@ -1,17 +1,36 @@
 'use client';
 
-import { useState } from 'react';
 import { cn } from '@/lib/utils';
 import { NewsletterProps } from '@/types';
 import { ViewContainer } from './ui/view-container';
 import { Input } from './ui/input';
 import { Button } from './ui/button';
 
+import { z } from 'zod';
+import { zodResolver } from '@hookform/resolvers/zod';
+import { useForm } from 'react-hook-form';
+import { Form, FormControl, FormField, FormItem, FormMessage } from './ui/form';
+
+const formSchema = z.object({
+  email: z.string().email({
+    message: 'Please enter a valid email!',
+  }),
+});
+
 // TODO: Add hashnode integration
-// TODO: Add Zod + ReactHookForm for better form control
 
 const Newsletter = ({ className, ...props }: NewsletterProps) => {
-  const [email, setEmail] = useState('');
+  const form = useForm<z.infer<typeof formSchema>>({
+    resolver: zodResolver(formSchema),
+    defaultValues: {
+      email: '',
+    },
+  });
+
+  const onSubmit = (value: z.infer<typeof formSchema>) => {
+    console.log(value);
+  };
+
   return (
     <section
       id="newsletter"
@@ -30,25 +49,28 @@ const Newsletter = ({ className, ...props }: NewsletterProps) => {
             Sign up for the very best tutorials and the latest news.
           </p>
         </div>
-        <form className="grow">
-          <div className="flex gap-2 flex-col md:flex-row">
-            <Input
-              placeholder="Enter your email"
-              onChange={(e) => {
-                setEmail(e.target.value);
-              }}
-              value={email}
-              type="email"
-              required
-            />
-            <Button type="submit" disabled={email === ''}>
-              Subscribe
-            </Button>
-          </div>
-          <p className="text-sm md:text-base text-gray-500 mt-2">
-            Your privacy is important. I never share your email.
-          </p>
-        </form>
+        <Form {...form}>
+          <form className="grow" onSubmit={form.handleSubmit(onSubmit)}>
+            <div className="flex gap-2 flex-col md:flex-row items-start">
+              <FormField
+                control={form.control}
+                name="email"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormControl>
+                      <Input placeholder="Enter your email" {...field} />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+              <Button type="submit">Subscribe</Button>
+            </div>
+            <p className="text-sm md:text-base text-gray-500 mt-2">
+              Your privacy is important. I never share your email.
+            </p>
+          </form>
+        </Form>
       </ViewContainer>
     </section>
   );
