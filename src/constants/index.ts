@@ -16,8 +16,8 @@ export const NAV_LINKS: NavLinksType = {
       url: '#sponsorships',
     },
     {
-      name: 'Blogs',
-      url: '/blogs',
+      name: 'Blog',
+      url: '/blog',
     },
   ],
   cta: {
