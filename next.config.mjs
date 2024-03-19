@@ -3,12 +3,12 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/blog",
-        destination: "https://codewithkunal-blog.vercel.app/blog",
+        source: '/blog',
+        destination: 'https://codewithkunal-blog.vercel.app/blog',
       },
       {
-        source: "/blog/:path*",
-        destination: "https://codewithkunal-blog.app/blog/:path*",
+        source: '/blog/:path*',
+        destination: 'https://codewithkunal-blog.vercel.app/blog/:path*',
       },
     ];
   },
