@@ -21,8 +21,8 @@ export const NAV_LINKS: NavLinksType = {
     },
   ],
   cta: {
-    name: 'Get in touch',
-    url: 'mailto:kunalkushwaha@wemakedevs.org',
+    name: 'Newsletter',
+    url: '/#newsletter',
   },
 };
 
@@ -43,7 +43,7 @@ export const NAV_LINKS_COURSE: NavLinksType = {
   ],
   cta: {
     name: 'Get in touch',
-    url: 'mailto:kunalkushwaha@wemakedevs.org',
+    url: 'mailto:kunal@wemakedevs.org',
   },
 };
 
