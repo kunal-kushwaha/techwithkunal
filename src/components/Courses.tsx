@@ -21,9 +21,12 @@ const Courses = ({ className, ...props }: CoursesProps) => {
           <h2 className="text-3xl font-semibold mt-1 md:mt-2 lg:mt-3">
             Teaching developers to upskill themselves.
           </h2>
-          <p className="text-gray-500 text-lg md:text-[20px] mt-3 md:mt-5 max-w-full md:max-w-[75%] lg:max-w-[60%] mx-auto">
-            Concise, explanatory and trendy tech based courses to help you grow,
-            upskill and get a job. Trusted by over 576K subscribers on YouTube.
+          <p className="text-gray-500 text-lg md:text-[20px] mt-3 md:mt-5 max-w-full md:max-w-[75%] mx-auto">
+            Step into a world of learning with my comprehensive courses,
+            designed for developers at all levels. I guide you through the
+            intricacies of Machine Learning, the practical applications of
+            DevOps, and mastery of the latest development technologies and
+            complex infrastructures.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-14 mt-10 md:mt-12 lg:mt-16">
@@ -33,11 +36,11 @@ const Courses = ({ className, ...props }: CoursesProps) => {
             </Icon>
             <div className="text-center space-y-1 md:space-y-2">
               <h3 className="text-lg md:text-[20px] font-medium">
-                Top rated courses
+                Widely Acclaimed Courses
               </h3>
               <p className="text-gray-500 text-base">
-                Whether you are a beginner or a seasoned developer, my courses
-                help everyone upskill according to industry trends.
+                Join thousands who have benefitted from my courses, backed by
+                thousands of positive reviews.
               </p>
             </div>
           </div>
@@ -47,11 +50,11 @@ const Courses = ({ className, ...props }: CoursesProps) => {
             </Icon>
             <div className="text-center space-y-1 md:space-y-2">
               <h3 className="text-lg md:text-[20px] font-medium">
-                Keeping up with latest trends
+                Latest Tech Trends Webinars
               </h3>
               <p className="text-gray-500 text-base">
-                I regularly host webinars and sessions talking about latest
-                technological trends so that you can keep learning and growing!
+                Regular webinars and sessions to keep you updated with the
+                latest technological advancements.
               </p>
             </div>
           </div>
@@ -61,12 +64,11 @@ const Courses = ({ className, ...props }: CoursesProps) => {
             </Icon>
             <div className="text-center space-y-1 md:space-y-2">
               <h3 className="text-lg md:text-[20px] font-medium">
-                Some title here
+                Free Access to Knowledge
               </h3>
               <p className="text-gray-500 text-base">
-                Measure what matters with Untitled’s easy-to-use reports. You
-                can filter, export, and drilldown on the data in a couple
-                clicks.
+                All courses are completely free to watch, making quality
+                education accessible to everyone.
               </p>
             </div>
           </div>
@@ -76,9 +78,9 @@ const Courses = ({ className, ...props }: CoursesProps) => {
             buttonVariants({ variant: 'default', size: 'lg' }),
             'mx-auto flex md:w-fit'
           )}
-          href="/courses"
+          href="https://www.youtube.com/KunalKushwaha"
         >
-          Check out courses <ArrowUpRight />
+          Explore courses <ArrowUpRight />
         </Link>
       </ViewContainer>
     </section>
