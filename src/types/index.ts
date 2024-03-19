@@ -14,8 +14,25 @@ export interface NavbarProps extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;
 }
 
-export interface HeaderProps extends React.HTMLAttributes<HTMLDivElement> {
+export interface GeneralComponent extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;
+}
+
+export interface GeneralComponentWithChild extends GeneralComponent {
+  children: React.ReactNode;
+}
+
+export interface HeaderProps extends GeneralComponentWithChild {}
+
+export interface HeaderTitleProps extends GeneralComponentWithChild {}
+
+export interface HeaderDescriptionProps extends GeneralComponentWithChild {}
+
+export interface HeaderCtaProps extends GeneralComponentWithChild {}
+
+export interface HeaderImageProps extends GeneralComponent {
+  src: StaticImageData;
+  alt: string;
 }
 
 export interface AboutProps extends React.HTMLAttributes<HTMLDivElement> {
