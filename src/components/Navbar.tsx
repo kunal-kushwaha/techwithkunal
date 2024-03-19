@@ -66,7 +66,11 @@ const Navbar = ({ className, ...props }: NavbarProps) => {
   return (
     <nav className={cn(className, 'border-b')} {...props}>
       <ViewContainer className="flex justify-between items-center h-20 relative overflow-x-clip">
-        <Image src={logoType} alt="Kunal Kushwaha" />
+        <Image
+          src={logoType}
+          alt="Kunal Kushwaha"
+          className="w-40 md:w-48 lg:w-52"
+        />
         <Button
           variant="outline"
           size="icon"

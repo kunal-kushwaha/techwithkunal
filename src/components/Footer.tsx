@@ -17,7 +17,11 @@ const Footer = ({ className, ...props }: FooterProps) => {
     >
       <ViewContainer className="">
         <div className="flex justify-between items-start gap-20 md:10 flex-col md:flex-row">
-          <Image src={logoTypeLight} alt="Kunal Kushwaha" />
+          <Image
+            src={logoTypeLight}
+            alt="Kunal Kushwaha"
+            className="w-40 md:48 lg:w-52"
+          />
           <div className="grid gap-5 grid-cols-2 md:grid-cols-3 w-full md:w-[70%] lg:w-[60%]">
             {FOOTER_LINKS.map((section, key) => (
               <div key={key} className="space-y-4">
