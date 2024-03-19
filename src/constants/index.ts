@@ -82,30 +82,21 @@ export const FOOTER_LINKS: FooterLinks = [
     name: 'Courses',
     links: [
       {
-        name: 'Data Structures',
-        url: '#',
+        name: 'Data Structures & Algorithms',
+        url: 'https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=uLbn3WbjuzBAqmt8',
       },
       {
-        name: 'DevOps 101',
-        url: '#',
-      },
-      {
-        name: 'Some Course',
-        url: '#',
-        isNew: true,
+        name: 'DevOps',
+        url: 'https://youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&si=yjQNeFziZFkv9Ed2',
       },
       {
         name: 'Git & GitHub',
-        url: '#',
-      },
-      {
-        name: 'Another course',
-        url: '#',
+        url: 'https://youtu.be/apGV9Kg7ics?si=5Fpqcpa_665QMtOl',
       },
     ],
   },
   {
-    name: 'Contact',
+    name: 'Socials',
     links: [
       {
         name: 'YouTube',
@@ -129,24 +120,20 @@ export const FOOTER_LINKS: FooterLinks = [
     name: 'Resources',
     links: [
       {
+        name: 'Home',
+        url: '/',
+      },
+      {
         name: 'Blog',
         url: '/blog',
       },
       {
-        name: 'Newsletter',
-        url: '#',
-      },
-      {
         name: 'Sponsorships',
-        url: '/sponsorships',
+        url: '#sponsorships',
       },
       {
         name: 'Courses',
-        url: '/courses',
-      },
-      {
-        name: 'Discord Server',
-        url: 'https://discord.gg/wemakedevs',
+        url: '#courses',
       },
     ],
   },

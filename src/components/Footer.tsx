@@ -18,9 +18,9 @@ const Footer = ({ className, ...props }: FooterProps) => {
       <ViewContainer className="">
         <div className="flex justify-between items-start gap-20 md:10 flex-col md:flex-row">
           <Image src={logoTypeLight} alt="Kunal Kushwaha" />
-          <div className="flex gap-16 flex-wrap w-full md:w-[60%]">
+          <div className="grid gap-5 grid-cols-2 md:grid-cols-3 w-full md:w-[70%] lg:w-[60%]">
             {FOOTER_LINKS.map((section, key) => (
-              <div key={key} className="space-y-4 grow">
+              <div key={key} className="space-y-4">
                 <h3 className="text-gray-400 font-semibold text-sm">
                   {section.name}
                 </h3>
@@ -45,9 +45,8 @@ const Footer = ({ className, ...props }: FooterProps) => {
             ))}
           </div>
         </div>
-        <div className="border-t border-gray-600 flex justify-between flex-wrap pt-8 mt-12 gap-5">
-          <p className="font-medium text-white">Mover faster with Kunal</p>
-          <p className="text-gray-400">
+        <div className="border-t border-gray-600 pt-8 mt-12">
+          <p className="text-gray-400 text-center">
             © 2024 Kunal Kushwaha. All rights reserved.
           </p>
         </div>
