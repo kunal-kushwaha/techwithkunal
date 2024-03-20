@@ -58,7 +58,7 @@ export const NAV_LINKS_COURSE: NavLinksType = {
 
 export const TESTIMONIALS_HOME: Testimonials = [
   {
-    text: "We've worked on various collaborations with Kunal's community, all of which have been an extraordinary and profitable experience. Kunal's interest to detail, clear expectations, and innovative work paired with his reach is a fantastic equation.",
+    text: "We've worked on various collaborations with Kunal's community, all of which have been an extraordinary and profitable experience. Kunal's interest to detail, clear expectations, and innovative work paired with his reach is a fantastic equation. The partnership brought in 100+ chat trials in Q4!",
     author: {
       name: 'Kimmy Leslie',
       image: testimonialStreamAuthor,
@@ -66,7 +66,7 @@ export const TESTIMONIALS_HOME: Testimonials = [
     company: testimonialStreamCompany,
   },
   {
-    text: 'Partnering with Kunal and his community was one of the highlights for the Teleport team this year. The quality of content is top-notch, the community engagement is very high, and the ROI is there to prove it.',
+    text: 'Partnering with Kunal and his community was one of the highlights for the Teleport team this year. The quality of content is top-notch, the community engagement is very high, and the ROI is there to prove it. It brought in 10K+ new web sessions and 100+ downloads with majority being new users.',
     company: testimonialTeleportCompany,
     author: {
       name: 'Kateryna Ivashchenko',
@@ -74,7 +74,7 @@ export const TESTIMONIALS_HOME: Testimonials = [
     },
   },
   {
-    text: "It's been a great feeling to collaborate with Kunal and his community, and he has made the entire process a pleasure. Kunal has made great contributions to letting more people know the benefits of our services and increase our user base.",
+    text: "It's been a great feeling to collaborate with Kunal and his community, and he has made the entire process a pleasure. Kunal has made great contributions to letting more people know the benefits of our services and increase our user base. We got over 11K stars and 5K signups.",
     company: testimonialKubesphereCompany,
     author: {
       name: 'Yun Li',
@@ -82,7 +82,7 @@ export const TESTIMONIALS_HOME: Testimonials = [
     },
   },
   {
-    text: 'He delivered more than he promised. I am absolutely happy and would keep working with him on a regular basis',
+    text: 'He delivered more than he promised. I am absolutely happy and would keep working with him on a regular basis. It brought in 2000+ signups for our web3 bootcamp!',
     company: testimonialRiseinCompany,
     author: {
       name: 'Ankit Raj',

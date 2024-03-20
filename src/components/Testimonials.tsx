@@ -39,7 +39,7 @@ const Testimonials = ({
                   alt={testimonial.author.name}
                   className="max-w-24 md:max-w-30 lg:max-w-32"
                 />
-                <h3 className="mt-6 md:mt-7 lg:mt-8 max-[360px]:text-[20px] text-[22px] leading-tight md:text-[34px] lg:text-[38px] font-medium">
+                <h3 className="mt-6 md:mt-7 lg:mt-8 max-[360px]:text-[18px] leading-tight md:text-[22px] lg:text-[26px] font-medium w-full md:max-w-[75%]">
                   {testimonial.text}
                 </h3>
                 <div className="flex flex-col items-center mt-8 md:mt-10 lg:mt-16">
