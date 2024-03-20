@@ -10,10 +10,6 @@ export type NavLinksType = {
   cta: NavLinkType;
 };
 
-export interface NavbarProps extends React.HTMLAttributes<HTMLDivElement> {
-  className?: string;
-}
-
 export interface GeneralComponent extends React.HTMLAttributes<HTMLDivElement> {
   className?: string;
 }
@@ -21,6 +17,8 @@ export interface GeneralComponent extends React.HTMLAttributes<HTMLDivElement> {
 export interface GeneralComponentWithChild extends GeneralComponent {
   children: React.ReactNode;
 }
+
+export interface NavbarProps extends GeneralComponent {}
 
 export interface HeaderProps extends GeneralComponentWithChild {}
 
@@ -35,18 +33,11 @@ export interface HeaderImageProps extends GeneralComponent {
   alt: string;
 }
 
-export interface AboutProps extends React.HTMLAttributes<HTMLDivElement> {
-  className?: string;
-}
+export interface AboutProps extends GeneralComponent {}
 
-export interface CoursesProps extends React.HTMLAttributes<HTMLDivElement> {
-  className?: string;
-}
+export interface CoursesProps extends GeneralComponent {}
 
-export interface SponsorshipsProps
-  extends React.HTMLAttributes<HTMLDivElement> {
-  className?: string;
-}
+export interface SponsorshipsProps extends GeneralComponent {}
 
 type Testimonial = {
   text: string;
@@ -59,15 +50,11 @@ type Testimonial = {
 
 export type Testimonials = Testimonial[];
 
-export interface TestimonialsProps
-  extends React.HTMLAttributes<HTMLDivElement> {
-  className?: string;
+export interface TestimonialsProps extends GeneralComponent {
   testimonials: Testimonials;
 }
 
-export interface FooterProps extends React.HTMLAttributes<HTMLDivElement> {
-  className?: string;
-}
+export interface FooterProps extends GeneralComponent {}
 
 type SingleFooterLink = {
   name: string;
@@ -82,6 +69,4 @@ type FooterLinksSection = {
 
 export type FooterLinks = FooterLinksSection[];
 
-export interface NewsletterProps extends React.HTMLAttributes<HTMLDivElement> {
-  className?: string;
-}
+export interface NewsletterProps extends GeneralComponent {}
