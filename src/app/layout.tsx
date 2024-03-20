@@ -18,12 +18,12 @@ export const metadata: Metadata = {
   title: 'Kunal Kushwaha',
   description:
     'Kunal Kushwaha is a DevRel, DevOps engineer and a community builder..',
-  metadataBase: new URL('https://codewithkunal.com'),
+  metadataBase: new URL('https://techwithkunal.com'),
   openGraph: {
     title: 'Kunal Kushwaha',
     description:
       'Kunal Kushwaha is a DevRel, DevOps engineer and a community builder..',
-    url: 'https://codewithkunal.com',
+    url: 'https://techwithkunal.com',
     siteName: 'Kunal Kushwaha',
     images: {
       url: '/opengraph-image.png',
