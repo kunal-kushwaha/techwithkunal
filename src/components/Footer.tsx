@@ -34,6 +34,8 @@ const Footer = ({ className, ...props }: FooterProps) => {
                       <Link
                         href={link.url}
                         className="relative z-0 before:absolute before:z-10 before:w-full before:h-[1px] before:bg-gray-200 before:bottom-0 before:left-0 before:scale-x-0 hover:before:scale-x-100 before:transition-transform before:origin-left"
+                        target={link.openInNewPage ? '_blank' : ''}
+                        rel={link.openInNewPage ? 'noreferrer noopener' : ''}
                       >
                         {link.name}
                       </Link>

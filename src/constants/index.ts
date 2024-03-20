@@ -27,6 +27,7 @@ export const NAV_LINKS: NavLinksType = {
     {
       name: 'Blog',
       url: '/blog',
+      openInNewPage: true,
     },
   ],
   cta: {
@@ -98,14 +99,17 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         name: 'Data Structures & Algorithms',
         url: 'https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=uLbn3WbjuzBAqmt8',
+        openInNewPage: true,
       },
       {
         name: 'DevOps',
         url: 'https://youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&si=yjQNeFziZFkv9Ed2',
+        openInNewPage: true,
       },
       {
         name: 'Git & GitHub',
         url: 'https://youtu.be/apGV9Kg7ics?si=5Fpqcpa_665QMtOl',
+        openInNewPage: true,
       },
     ],
   },
@@ -115,18 +119,22 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         name: 'YouTube',
         url: 'https://www.youtube.com/@kunalkushwaha',
+        openInNewPage: true,
       },
       {
         name: 'Twitter',
         url: 'https://twitter.com/kunalstwt',
+        openInNewPage: true,
       },
       {
         name: 'LinkedIn',
         url: 'https://www.linkedin.com/in/kunal-kushwaha/',
+        openInNewPage: true,
       },
       {
         name: 'Instagram',
         url: 'https://www.instagram.com/kunalsig/',
+        openInNewPage: true,
       },
     ],
   },
@@ -140,6 +148,7 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         name: 'Blog',
         url: '/blog',
+        openInNewPage: true,
       },
       {
         name: 'Sponsorships',

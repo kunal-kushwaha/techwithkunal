@@ -40,6 +40,8 @@ const NavLinks = ({
           onClick={() => {
             setIsOpen((prev) => !prev);
           }}
+          target={link.openInNewPage ? '_blank' : ''}
+          rel={link.openInNewPage ? 'noreferrer noopener' : ''}
         >
           {link.name}
         </Link>

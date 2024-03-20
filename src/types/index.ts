@@ -3,6 +3,7 @@ import { StaticImageData } from 'next/image';
 type NavLinkType = {
   name: string;
   url: string;
+  openInNewPage?: boolean;
 };
 
 export type NavLinksType = {
@@ -60,6 +61,7 @@ type SingleFooterLink = {
   name: string;
   url: string;
   isNew?: boolean;
+  openInNewPage?: boolean;
 };
 
 type FooterLinksSection = {
