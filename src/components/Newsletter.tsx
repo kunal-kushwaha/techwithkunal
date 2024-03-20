@@ -60,12 +60,12 @@ const Newsletter = ({ className, ...props }: NewsletterProps) => {
       else
         toast.error('Ohh no! Some error occured!', {
           description:
-            "Please send me an email at kunalkushwaha@wemakedevs.org and I'll fix it asap.",
+            "Please send me an email at kunal@wemakedevs.org and I'll fix it asap.",
         });
     } catch (error) {
       toast.error('Ohh no! Some error occured!', {
         description:
-          "Please send me an email at kunalkushwaha@wemakedevs.org and I'll fix it asap.",
+          "Please send me an email at kunal@wemakedevs.org and I'll fix it asap.",
       });
     } finally {
       setIsLoading(false);
