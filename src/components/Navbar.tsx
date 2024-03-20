@@ -64,7 +64,14 @@ const Navbar = ({ className, ...props }: NavbarProps) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className={cn(className, 'border-b')} {...props}>
+    <nav
+      className={cn(
+        className,
+        'border-b bg-background',
+        'sticky top-0 left-0 z-50'
+      )}
+      {...props}
+    >
       <ViewContainer className="flex justify-between items-center h-20 relative overflow-x-clip">
         <Image
           src={logoType}
