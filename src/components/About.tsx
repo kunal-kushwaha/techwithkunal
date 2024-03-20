@@ -8,7 +8,7 @@ const About = ({ className, ...props }: AboutProps) => {
   return (
     <section
       id="about"
-      className={cn(className, 'my-20 md:my-28 lg:my-32')}
+      className={cn(className, 'py-20 md:py-28 lg:py-32')}
       {...props}
     >
       <ViewContainer className="grid grid-cols-1 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-14">
