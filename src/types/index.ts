@@ -52,7 +52,6 @@ type Testimonial = {
   text: string;
   author: {
     name: string;
-    description: string;
     image: StaticImageData;
   };
   company: StaticImageData;

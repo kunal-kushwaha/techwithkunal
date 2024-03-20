@@ -1,4 +1,13 @@
-import { testimonial1Author, testimonial1Company } from '@/assets';
+import {
+  testimonialKubesphereAuthor,
+  testimonialKubesphereCompany,
+  testimonialRiseinAuthor,
+  testimonialRiseinCompany,
+  testimonialStreamAuthor,
+  testimonialStreamCompany,
+  testimonialTeleportAuthor,
+  testimonialTeleportCompany,
+} from '@/assets';
 import { FooterLinks, NavLinksType, Testimonials } from '@/types';
 
 export const NAV_LINKS: NavLinksType = {
@@ -49,31 +58,36 @@ export const NAV_LINKS_COURSE: NavLinksType = {
 
 export const TESTIMONIALS_HOME: Testimonials = [
   {
-    text: 'Some great two liner testimonial here. Well, short but crisp is what makes the webpage look good.',
+    text: "We've worked on various collaborations with Kunal's community, all of which have been an extraordinary and profitable experience. Kunal's interest to detail, clear expectations, and innovative work paired with his reach is a fantastic equation.",
     author: {
-      name: 'Candice Wu',
-      image: testimonial1Author,
-      description: 'Product Manager, Sisyphus',
+      name: 'Kimmy Leslie',
+      image: testimonialStreamAuthor,
     },
-    company: testimonial1Company,
+    company: testimonialStreamCompany,
   },
   {
-    text: 'Some great two liner testimonial here. Well, short but crisp is what makes the webpage look good.',
+    text: 'Partnering with Kunal and his community was one of the highlights for the Teleport team this year. The quality of content is top-notch, the community engagement is very high, and the ROI is there to prove it.',
+    company: testimonialTeleportCompany,
     author: {
-      name: 'Candice Wu',
-      image: testimonial1Author,
-      description: 'Product Manager, Sisyphus',
+      name: 'Kateryna Ivashchenko',
+      image: testimonialTeleportAuthor,
     },
-    company: testimonial1Company,
   },
   {
-    text: 'Some great two liner testimonial here. Well, short but crisp is what makes the webpage look good.',
+    text: "It's been a great feeling to collaborate with Kunal and his community, and he has made the entire process a pleasure. Kunal has made great contributions to letting more people know the benefits of our services and increase our user base.",
+    company: testimonialKubesphereCompany,
     author: {
-      name: 'Candice Wu',
-      image: testimonial1Author,
-      description: 'Product Manager, Sisyphus',
+      name: 'Yun Li',
+      image: testimonialKubesphereAuthor,
     },
-    company: testimonial1Company,
+  },
+  {
+    text: 'He delivered more than he promised. I am absolutely happy and would keep working with him on a regular basis',
+    company: testimonialRiseinCompany,
+    author: {
+      name: 'Ankit Raj',
+      image: testimonialRiseinAuthor,
+    },
   },
 ];
 
