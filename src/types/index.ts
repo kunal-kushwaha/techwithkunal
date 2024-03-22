@@ -40,6 +40,23 @@ export interface CoursesProps extends GeneralComponent {}
 
 export interface SponsorshipsProps extends GeneralComponent {}
 
+// FIX: Fix this types
+
+export interface CoursesCardsProps extends GeneralComponent {}
+
+export interface CardProps extends GeneralComponentWithChild {}
+
+export interface CardTitleProps extends GeneralComponentWithChild {}
+
+export interface CardDescriptionProps extends GeneralComponentWithChild {}
+
+export interface CardCtaProps extends GeneralComponentWithChild {}
+
+export interface CardImageProps extends GeneralComponent {
+  src: StaticImageData;
+  alt: string;
+}
+
 type Testimonial = {
   text: string;
   author: {
@@ -72,3 +89,33 @@ type FooterLinksSection = {
 export type FooterLinks = FooterLinksSection[];
 
 export interface NewsletterProps extends GeneralComponent {}
+
+type CourseSyllabusPoint = {
+  title: string;
+  description: string;
+};
+
+type CourseSingleResource = {
+  title: string;
+  description: string;
+  url: string;
+};
+
+type CourseSingleFaq = {
+  title: string;
+  description: string;
+};
+
+type CourseInfo = {
+  title: string;
+  slug: string;
+  description: string;
+  about: string;
+  image: StaticImageData;
+  link: string;
+  syllabus: CourseSyllabusPoint[];
+  resources: CourseSingleResource[];
+  faqs: CourseSingleFaq[];
+};
+
+export type CoursesInfo = CourseInfo[];

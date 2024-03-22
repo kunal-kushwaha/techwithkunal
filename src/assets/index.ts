@@ -10,6 +10,7 @@ import testimonialStreamAuthor from './testimonial_stream_author.png';
 import testimonialStreamCompany from './testimonial_stream_company.svg';
 import testimonialKubesphereAuthor from './testimonial_kubesphere_author.png';
 import testimonialKubesphereCompany from './testimonial_kubesphere_company.svg';
+import courseCourse1 from './course_course1.webp';
 
 export {
   logoType,
@@ -24,4 +25,5 @@ export {
   testimonialRiseinCompany,
   testimonialKubesphereAuthor,
   testimonialKubesphereCompany,
+  courseCourse1,
 };

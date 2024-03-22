@@ -1,4 +1,5 @@
 import {
+  courseCourse1,
   testimonialKubesphereAuthor,
   testimonialKubesphereCompany,
   testimonialRiseinAuthor,
@@ -8,7 +9,7 @@ import {
   testimonialTeleportAuthor,
   testimonialTeleportCompany,
 } from '@/assets';
-import { FooterLinks, NavLinksType, Testimonials } from '@/types';
+import { CoursesInfo, FooterLinks, NavLinksType, Testimonials } from '@/types';
 
 export const NAV_LINKS: NavLinksType = {
   links: [
@@ -157,6 +158,121 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         name: 'Courses',
         url: '#courses',
+      },
+    ],
+  },
+];
+
+export const COURSES: CoursesInfo = [
+  {
+    title: 'A short and simple course title will be here',
+    description:
+      "A brief description of the course will be here. It'll brefily explain what he course is.",
+    slug: 'course1',
+    about:
+      "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
+    image: courseCourse1,
+    link: '#',
+    syllabus: [
+      {
+        title: 'Syllabus first point',
+        description:
+          'Syllabus first point description explaining the part of the course.',
+      },
+      {
+        title: 'Syllabus second point',
+        description:
+          'Second points description explaining the part of the course.',
+      },
+      {
+        title: 'Another point of syllabus',
+        description:
+          'And this paragram will expalin that another point of the syllabus.',
+      },
+      {
+        title: 'I can call it the last part',
+        description:
+          "And so is this in terms of the description. Interesting, isn't it?",
+      },
+    ],
+    faqs: [
+      {
+        title: 'First question in FAQ part',
+        description:
+          'The answer to that question will be here. Depends how big it will be.',
+      },
+      {
+        title: 'And another question here',
+        description:
+          'and another answer should be here. Kinda tired to write all this lol.',
+      },
+    ],
+    resources: [
+      {
+        title: 'Resource title should be here',
+        description: 'A little description about the resource should be here.',
+        url: '#',
+      },
+      {
+        title: 'Another resources title here',
+        description: 'and another description for the resource will be here',
+        url: '#',
+      },
+    ],
+  },
+  {
+    title: 'A short and simple course title will be here',
+    description:
+      "A brief description of the course will be here. It'll brefily explain what he course is.",
+    slug: 'course1',
+    about:
+      "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
+    image: courseCourse1,
+    link: '#',
+    syllabus: [
+      {
+        title: 'Syllabus first point',
+        description:
+          'Syllabus first point description explaining the part of the course.',
+      },
+      {
+        title: 'Syllabus second point',
+        description:
+          'Second points description explaining the part of the course.',
+      },
+      {
+        title: 'Another point of syllabus',
+        description:
+          'And this paragram will expalin that another point of the syllabus.',
+      },
+      {
+        title: 'I can call it the last part',
+        description:
+          "And so is this in terms of the description. Interesting, isn't it?",
+      },
+    ],
+    faqs: [
+      {
+        title: 'First question in FAQ part',
+        description:
+          'The answer to that question will be here. Depends how big it will be.',
+      },
+      {
+        title: 'And another question here',
+        description:
+          'and another answer should be here. Kinda tired to write all this lol.',
+      },
+    ],
+    resources: [
+      {
+        title: 'Resource title should be here',
+        description: 'A little description about the resource should be here.',
+        url: '#',
+      },
+      {
+        title: 'Another resources title here',
+        description: 'and another description for the resource will be here',
+        url: '#',
       },
     ],
   },
