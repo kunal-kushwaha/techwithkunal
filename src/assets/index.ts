@@ -11,6 +11,12 @@ import testimonialStreamCompany from './testimonial_stream_company.svg';
 import testimonialKubesphereAuthor from './testimonial_kubesphere_author.png';
 import testimonialKubesphereCompany from './testimonial_kubesphere_company.svg';
 import courseCourse1 from './course_course1.webp';
+import companyGoogle from './company_google.svg';
+import companyCisco from './company_cisco.svg';
+import companyRazorpay from './company_razorpay.svg';
+import companyClicklab from './company_clicklab.svg';
+import companySamsung from './company_samsung.svg';
+import companyAdobe from './company_adobe.svg';
 
 export {
   logoType,
@@ -26,4 +32,10 @@ export {
   testimonialKubesphereAuthor,
   testimonialKubesphereCompany,
   courseCourse1,
+  companyAdobe,
+  companyClicklab,
+  companyCisco,
+  companyGoogle,
+  companySamsung,
+  companyRazorpay,
 };
