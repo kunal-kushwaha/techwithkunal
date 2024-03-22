@@ -1,3 +1,4 @@
+import CoursesCards from '@/components/CoursesCards';
 import {
   Header,
   HeaderCta,
@@ -19,13 +20,14 @@ const Courses = () => {
         </HeaderDescription>
         <HeaderCta>
           <Link
-            href="#"
+            href="#courses"
             className={buttonVariants({ variant: 'default', size: 'lg' })}
           >
             Check out courses <ArrowDown />
           </Link>
         </HeaderCta>
       </Header>
+      <CoursesCards />
     </div>
   );
 };

@@ -40,8 +40,6 @@ export interface CoursesProps extends GeneralComponent {}
 
 export interface SponsorshipsProps extends GeneralComponent {}
 
-// FIX: Fix this types
-
 export interface CoursesCardsProps extends GeneralComponent {}
 
 export interface CardProps extends GeneralComponentWithChild {}
