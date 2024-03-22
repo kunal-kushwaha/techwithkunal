@@ -55,6 +55,8 @@ export interface CardImageProps extends GeneralComponent {
   alt: string;
 }
 
+export interface SocialProofProps extends GeneralComponent {}
+
 type Testimonial = {
   text: string;
   author: {

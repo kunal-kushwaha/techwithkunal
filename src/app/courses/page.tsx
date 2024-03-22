@@ -5,6 +5,7 @@ import {
   HeaderDescription,
   HeaderTitle,
 } from '@/components/Header';
+import SocialProof from '@/components/SocialProof';
 import { buttonVariants } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 import Link from 'next/link';
@@ -28,6 +29,7 @@ const Courses = () => {
         </HeaderCta>
       </Header>
       <CoursesCards />
+      <SocialProof />
     </div>
   );
 };
