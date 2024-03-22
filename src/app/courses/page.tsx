@@ -6,9 +6,11 @@ import {
   HeaderTitle,
 } from '@/components/Header';
 import SocialProof from '@/components/SocialProof';
+import FAQs from '@/components/FQAs';
 import { buttonVariants } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 import Link from 'next/link';
+import { COURSES_FAQS } from '@/constants';
 
 const Courses = () => {
   return (
@@ -30,6 +32,11 @@ const Courses = () => {
       </Header>
       <CoursesCards />
       <SocialProof />
+      <FAQs
+        title="Frequently asked questions"
+        description="Everything you need to know about the courses and resources."
+        items={COURSES_FAQS}
+      />
     </div>
   );
 };

@@ -101,10 +101,18 @@ type CourseSingleResource = {
   url: string;
 };
 
-type CourseSingleFaq = {
+type SingleFaq = {
   title: string;
   description: string;
 };
+
+export type CoursesFaqs = SingleFaq[];
+
+export interface FAQsProps extends GeneralComponent {
+  title: string;
+  description: string;
+  items: SingleFaq[];
+}
 
 type CourseInfo = {
   title: string;
@@ -115,7 +123,7 @@ type CourseInfo = {
   link: string;
   syllabus: CourseSyllabusPoint[];
   resources: CourseSingleResource[];
-  faqs: CourseSingleFaq[];
+  faqs: SingleFaq[];
 };
 
 export type CoursesInfo = CourseInfo[];

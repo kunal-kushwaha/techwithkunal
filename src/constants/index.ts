@@ -9,7 +9,13 @@ import {
   testimonialTeleportAuthor,
   testimonialTeleportCompany,
 } from '@/assets';
-import { CoursesInfo, FooterLinks, NavLinksType, Testimonials } from '@/types';
+import {
+  CoursesFaqs,
+  CoursesInfo,
+  FooterLinks,
+  NavLinksType,
+  Testimonials,
+} from '@/types';
 
 export const NAV_LINKS: NavLinksType = {
   links: [
@@ -275,5 +281,33 @@ export const COURSES: CoursesInfo = [
         url: '#',
       },
     ],
+  },
+];
+
+export const COURSES_FAQS: CoursesFaqs = [
+  {
+    title: 'Are all your courses free?',
+    description:
+      'Yes! All of our courses are and will always be free as well as high quality. You can find those on our YouTube channel.',
+  },
+  {
+    title: 'How do I get my doubts resolved?',
+    description:
+      'Join our Discord community along with thousands of others and feel free to ask your doubts in the relevant channels.',
+  },
+  {
+    title: 'Is your community beginner friendly?',
+    description:
+      'Yes! Even non-coders are welcome. Our courses are designed in such a way that anyone can get started with it. Even people who have never programmed before!',
+  },
+  {
+    title: 'Do you provide notes and assignments?',
+    description:
+      "Yes. It's crucial to revise the topics and self practice after watching the tutorials and we provide materials for the same.",
+  },
+  {
+    title: 'Do you provide mentorship and guidance?',
+    description:
+      'Yes. That is the highlight of our community. Get expert guidance from industry experts from around the world. You can learn more and get inspired by their stories and roadmaps via the podcast Open Source Cafe.',
   },
 ];
