@@ -30,6 +30,8 @@ const CoursesSponsorships = ({
             buttonVariants({ variant: 'default', size: 'lg' }),
             'mt-5 md:mt-8 lg:mt-10'
           )}
+          target="_blank"
+          rel="noreferrer noopener"
         >
           Explore sponsorships <ArrowUpRight />
         </Link>
