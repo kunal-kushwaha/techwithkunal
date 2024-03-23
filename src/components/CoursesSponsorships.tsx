@@ -10,7 +10,11 @@ const CoursesSponsorships = ({
   ...props
 }: CoursesSponsorshipsProps) => {
   return (
-    <section className={cn(className, 'py-12 md:py-16 lg:py-20')} {...props}>
+    <section
+      className={cn(className, 'py-12 md:py-16 lg:py-20')}
+      id="sponsorships"
+      {...props}
+    >
       <ViewContainer className="flex flex-col items-center">
         <h2 className="text-3xl font-semibold text-center">
           A course crafted for your product.

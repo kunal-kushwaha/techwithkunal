@@ -52,6 +52,10 @@ export const NAV_LINKS: NavLinksType = {
 export const NAV_LINKS_COURSE: NavLinksType = {
   links: [
     {
+      name: 'About',
+      url: '#',
+    },
+    {
       name: 'Courses',
       url: '#courses',
     },
@@ -60,8 +64,12 @@ export const NAV_LINKS_COURSE: NavLinksType = {
       url: '#faq',
     },
     {
-      name: 'Testimonials',
-      url: '#testimonials',
+      name: 'Sponsorships',
+      url: '#sponsorships',
+    },
+    {
+      name: 'Newsletter',
+      url: '#newsletter',
     },
   ],
   cta: {
