@@ -1,14 +1,27 @@
 import {
+  courseCourse1,
+  testimonialAnuragh,
+  testimonialEkjot,
   testimonialKubesphereAuthor,
   testimonialKubesphereCompany,
+  testimonialPrassana,
+  testimonialRahul,
   testimonialRiseinAuthor,
   testimonialRiseinCompany,
+  testimonialSajjan,
+  testimonialSiva,
   testimonialStreamAuthor,
   testimonialStreamCompany,
   testimonialTeleportAuthor,
   testimonialTeleportCompany,
 } from '@/assets';
-import { FooterLinks, NavLinksType, Testimonials } from '@/types';
+import {
+  CoursesFaqs,
+  CoursesInfo,
+  FooterLinks,
+  NavLinksType,
+  Testimonials,
+} from '@/types';
 
 export const NAV_LINKS: NavLinksType = {
   links: [
@@ -92,6 +105,51 @@ export const TESTIMONIALS_HOME: Testimonials = [
   },
 ];
 
+export const TESTIMONIALS_COURSES: Testimonials = [
+  {
+    text: "Completed @kunalstwt's DevOps bootcamp networking video. Really awesome explanation, got a clear overview of whole networking process. Application layer is perfectly understood.",
+    author: {
+      name: 'Anurag Pathak',
+      image: testimonialAnuragh,
+    },
+  },
+  {
+    text: "The way this guy is teaching me Java is just Mind Blowing and Brilliant. I've never thought that these topics would be that much easier. Kudos to @kunalstwt",
+    author: {
+      name: 'Rahul Kumar',
+      image: testimonialRahul,
+    },
+  },
+  {
+    text: "Thanks @kunalstwt for helping me understand the benefits of Binary Search and how it's a lot effective than linear search. Understood the theory now and will be solving questions with @WeMakeDevs and build up the concept.",
+    author: {
+      name: 'Ekjot Singh',
+      image: testimonialEkjot,
+    },
+  },
+  {
+    text: 'Done with amazing playlist of Object Oriented Programming by @kunalstwt bhaiya. Every concept was explained very well and got to know so many new things. Thanks kunal bhaiya for such an amazing playlist.',
+    author: {
+      name: 'Sajjan Yadav',
+      image: testimonialSajjan,
+    },
+  },
+  {
+    text: 'Finally, completed 4 hour long video on computer networking. Amazing content @kunalstwt. Thanks for creating such an educational content for us 🙌🙌',
+    author: {
+      image: testimonialPrassana,
+      name: 'Prasanna',
+    },
+  },
+  {
+    text: 'What an explanation 🔥 on recursion! This dsa course is just absolutely amazing. Thank you Kunal Kushwaha for this amazing course.',
+    author: {
+      name: 'Siva',
+      image: testimonialSiva,
+    },
+  },
+];
+
 export const FOOTER_LINKS: FooterLinks = [
   {
     name: 'Courses',
@@ -156,8 +214,151 @@ export const FOOTER_LINKS: FooterLinks = [
       },
       {
         name: 'Courses',
-        url: '#courses',
+        url: '/courses',
       },
     ],
+  },
+];
+
+export const COURSES: CoursesInfo = [
+  {
+    title: 'A short and simple course title will be here',
+    description:
+      "A brief description of the course will be here. It'll brefily explain what he course is.",
+    slug: 'course1',
+    about:
+      "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
+    image: courseCourse1,
+    link: '#',
+    syllabus: [
+      {
+        title: 'Syllabus first point',
+        description:
+          'Syllabus first point description explaining the part of the course.',
+      },
+      {
+        title: 'Syllabus second point',
+        description:
+          'Second points description explaining the part of the course.',
+      },
+      {
+        title: 'Another point of syllabus',
+        description:
+          'And this paragram will expalin that another point of the syllabus.',
+      },
+      {
+        title: 'I can call it the last part',
+        description:
+          "And so is this in terms of the description. Interesting, isn't it?",
+      },
+    ],
+    faqs: [
+      {
+        title: 'First question in FAQ part',
+        description:
+          'The answer to that question will be here. Depends how big it will be.',
+      },
+      {
+        title: 'And another question here',
+        description:
+          'and another answer should be here. Kinda tired to write all this lol.',
+      },
+    ],
+    resources: [
+      {
+        title: 'Resource title should be here',
+        description: 'A little description about the resource should be here.',
+        url: '#',
+      },
+      {
+        title: 'Another resources title here',
+        description: 'and another description for the resource will be here',
+        url: '#',
+      },
+    ],
+  },
+  {
+    title: 'A short and simple course title will be here',
+    description:
+      "A brief description of the course will be here. It'll brefily explain what he course is.",
+    slug: 'course1',
+    about:
+      "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
+    image: courseCourse1,
+    link: '#',
+    syllabus: [
+      {
+        title: 'Syllabus first point',
+        description:
+          'Syllabus first point description explaining the part of the course.',
+      },
+      {
+        title: 'Syllabus second point',
+        description:
+          'Second points description explaining the part of the course.',
+      },
+      {
+        title: 'Another point of syllabus',
+        description:
+          'And this paragram will expalin that another point of the syllabus.',
+      },
+      {
+        title: 'I can call it the last part',
+        description:
+          "And so is this in terms of the description. Interesting, isn't it?",
+      },
+    ],
+    faqs: [
+      {
+        title: 'First question in FAQ part',
+        description:
+          'The answer to that question will be here. Depends how big it will be.',
+      },
+      {
+        title: 'And another question here',
+        description:
+          'and another answer should be here. Kinda tired to write all this lol.',
+      },
+    ],
+    resources: [
+      {
+        title: 'Resource title should be here',
+        description: 'A little description about the resource should be here.',
+        url: '#',
+      },
+      {
+        title: 'Another resources title here',
+        description: 'and another description for the resource will be here',
+        url: '#',
+      },
+    ],
+  },
+];
+
+export const COURSES_FAQS: CoursesFaqs = [
+  {
+    title: 'Are all your courses free?',
+    description:
+      'Yes! All of our courses are and will always be free as well as high quality. You can find those on our YouTube channel.',
+  },
+  {
+    title: 'How do I get my doubts resolved?',
+    description:
+      'Join our Discord community along with thousands of others and feel free to ask your doubts in the relevant channels.',
+  },
+  {
+    title: 'Is your community beginner friendly?',
+    description:
+      'Yes! Even non-coders are welcome. Our courses are designed in such a way that anyone can get started with it. Even people who have never programmed before!',
+  },
+  {
+    title: 'Do you provide notes and assignments?',
+    description:
+      "Yes. It's crucial to revise the topics and self practice after watching the tutorials and we provide materials for the same.",
+  },
+  {
+    title: 'Do you provide mentorship and guidance?',
+    description:
+      'Yes. That is the highlight of our community. Get expert guidance from industry experts from around the world. You can learn more and get inspired by their stories and roadmaps via the podcast Open Source Cafe.',
   },
 ];

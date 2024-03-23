@@ -78,7 +78,7 @@ const Courses = ({ className, ...props }: CoursesProps) => {
             buttonVariants({ variant: 'default', size: 'lg' }),
             'mx-auto flex md:w-fit'
           )}
-          href="https://www.youtube.com/KunalKushwaha"
+          href="/courses"
         >
           Explore courses <ArrowUpRight />
         </Link>

@@ -10,6 +10,19 @@ import testimonialStreamAuthor from './testimonial_stream_author.png';
 import testimonialStreamCompany from './testimonial_stream_company.svg';
 import testimonialKubesphereAuthor from './testimonial_kubesphere_author.png';
 import testimonialKubesphereCompany from './testimonial_kubesphere_company.svg';
+import courseCourse1 from './course_course1.webp';
+import companyGoogle from './company_google.svg';
+import companyCisco from './company_cisco.svg';
+import companyRazorpay from './company_razorpay.svg';
+import companyClicklab from './company_clicklab.svg';
+import companySamsung from './company_samsung.svg';
+import companyAdobe from './company_adobe.svg';
+import testimonialAnuragh from './testimonial_anuragh.jpg';
+import testimonialSiva from './testimonial_siva.jpg';
+import testimonialSajjan from './testimonial_sajjan.jpg';
+import testimonialPrassana from './testimonial_prassana.jpg';
+import testimonialEkjot from './testimonials_ekjot.jpg';
+import testimonialRahul from './testimonial_rahul.jpg';
 
 export {
   logoType,
@@ -24,4 +37,17 @@ export {
   testimonialRiseinCompany,
   testimonialKubesphereAuthor,
   testimonialKubesphereCompany,
+  courseCourse1,
+  companyAdobe,
+  companyClicklab,
+  companyCisco,
+  companyGoogle,
+  companySamsung,
+  companyRazorpay,
+  testimonialRahul,
+  testimonialEkjot,
+  testimonialPrassana,
+  testimonialSiva,
+  testimonialSajjan,
+  testimonialAnuragh,
 };

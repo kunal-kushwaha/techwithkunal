@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 const Header = ({ className, children, ...props }: HeaderProps) => {
   return (
-    <header className={cn(className, 'my-12 lg:my-20')} {...props}>
+    <header className={cn(className, 'py-12 lg:py-20')} {...props}>
       <ViewContainer className="">{children}</ViewContainer>
     </header>
   );

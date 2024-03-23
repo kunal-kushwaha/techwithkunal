@@ -34,11 +34,13 @@ const Testimonials = ({
                 key={key}
                 className="flex flex-col items-center text-center"
               >
-                <Image
-                  src={testimonial.company}
-                  alt={testimonial.author.name}
-                  className="max-w-24 md:max-w-30 lg:max-w-32"
-                />
+                {testimonial.company && (
+                  <Image
+                    src={testimonial.company}
+                    alt={testimonial.author.name}
+                    className="max-w-24 md:max-w-30 lg:max-w-32"
+                  />
+                )}
                 <h3 className="mt-6 md:mt-7 lg:mt-8 max-[360px]:text-[18px] leading-tight md:text-[22px] lg:text-[26px] font-medium w-full md:max-w-[75%]">
                   {testimonial.text}
                 </h3>
@@ -46,7 +48,7 @@ const Testimonials = ({
                   <Image
                     src={testimonial.author.image}
                     alt={testimonial.author.name}
-                    className="max-w-12 md:max-w-14"
+                    className="max-w-12 md:max-w-14 rounded-full"
                   />
                   <h4 className="text-base md:text-lg font-medium mt-2 md:mt-3 lg:mt-4 text-gray-500">
                     {testimonial.author.name}
