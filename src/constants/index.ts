@@ -1,9 +1,15 @@
 import {
   courseCourse1,
+  testimonialAnuragh,
+  testimonialEkjot,
   testimonialKubesphereAuthor,
   testimonialKubesphereCompany,
+  testimonialPrassana,
+  testimonialRahul,
   testimonialRiseinAuthor,
   testimonialRiseinCompany,
+  testimonialSajjan,
+  testimonialSiva,
   testimonialStreamAuthor,
   testimonialStreamCompany,
   testimonialTeleportAuthor,
@@ -95,6 +101,51 @@ export const TESTIMONIALS_HOME: Testimonials = [
     author: {
       name: 'Ankit Raj',
       image: testimonialRiseinAuthor,
+    },
+  },
+];
+
+export const TESTIMONIALS_COURSES: Testimonials = [
+  {
+    text: "Completed @kunalstwt's DevOps bootcamp networking video. Really awesome explanation, got a clear overview of whole networking process. Application layer is perfectly understood.",
+    author: {
+      name: 'Anurag Pathak',
+      image: testimonialAnuragh,
+    },
+  },
+  {
+    text: "The way this guy is teaching me Java is just Mind Blowing and Brilliant. I've never thought that these topics would be that much easier. Kudos to @kunalstwt",
+    author: {
+      name: 'Rahul Kumar',
+      image: testimonialRahul,
+    },
+  },
+  {
+    text: "Thanks @kunalstwt for helping me understand the benefits of Binary Search and how it's a lot effective than linear search. Understood the theory now and will be solving questions with @WeMakeDevs and build up the concept.",
+    author: {
+      name: 'Ekjot Singh',
+      image: testimonialEkjot,
+    },
+  },
+  {
+    text: 'Done with amazing playlist of Object Oriented Programming by @kunalstwt bhaiya. Every concept was explained very well and got to know so many new things. Thanks kunal bhaiya for such an amazing playlist.',
+    author: {
+      name: 'Sajjan Yadav',
+      image: testimonialSajjan,
+    },
+  },
+  {
+    text: 'Finally, completed 4 hour long video on computer networking. Amazing content @kunalstwt. Thanks for creating such an educational content for us 🙌🙌',
+    author: {
+      image: testimonialPrassana,
+      name: 'Prasanna',
+    },
+  },
+  {
+    text: 'What an explanation 🔥 on recursion! This dsa course is just absolutely amazing. Thank you Kunal Kushwaha for this amazing course.',
+    author: {
+      name: 'Siva',
+      image: testimonialSiva,
     },
   },
 ];

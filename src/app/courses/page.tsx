@@ -10,7 +10,8 @@ import FAQs from '@/components/FQAs';
 import { buttonVariants } from '@/components/ui/button';
 import { ArrowDown } from 'lucide-react';
 import Link from 'next/link';
-import { COURSES_FAQS } from '@/constants';
+import { COURSES_FAQS, TESTIMONIALS_COURSES } from '@/constants';
+import Testimonials from '@/components/Testimonials';
 
 const Courses = () => {
   return (
@@ -37,6 +38,7 @@ const Courses = () => {
         description="Everything you need to know about the courses and resources."
         items={COURSES_FAQS}
       />
+      <Testimonials testimonials={TESTIMONIALS_COURSES} />
     </div>
   );
 };

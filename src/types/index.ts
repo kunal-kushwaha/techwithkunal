@@ -63,7 +63,7 @@ type Testimonial = {
     name: string;
     image: StaticImageData;
   };
-  company: StaticImageData;
+  company?: StaticImageData;
 };
 
 export type Testimonials = Testimonial[];
