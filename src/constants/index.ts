@@ -214,7 +214,7 @@ export const FOOTER_LINKS: FooterLinks = [
       },
       {
         name: 'Courses',
-        url: '#courses',
+        url: '/courses',
       },
     ],
   },
