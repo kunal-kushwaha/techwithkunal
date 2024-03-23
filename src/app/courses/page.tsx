@@ -15,7 +15,7 @@ const Courses = () => {
         testimonials={TESTIMONIALS_COURSES}
       />
       <SocialProof />
-      <CoursesCards />
+      <CoursesCards className="bg-gray-50" />
       <FAQs
         title="Frequently asked questions"
         description="Everything you need to know about the courses and resources."
