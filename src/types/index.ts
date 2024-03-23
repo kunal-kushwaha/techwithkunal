@@ -8,7 +8,7 @@ type NavLinkType = {
 
 export type NavLinksType = {
   links: NavLinkType[];
-  cta: NavLinkType;
+  cta?: NavLinkType;
 };
 
 export interface GeneralComponent extends React.HTMLAttributes<HTMLDivElement> {

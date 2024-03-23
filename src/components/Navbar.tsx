@@ -47,17 +47,19 @@ const NavLinks = ({
         </Link>
       </li>
     ))}
-    <li className="w-full md:w-auto">
-      <Link
-        href={navLinks.cta.url}
-        className={cn(
-          buttonVariants({ variant: 'default', size: 'default' }),
-          'w-full md:w-auto'
-        )}
-      >
-        {navLinks.cta.name}
-      </Link>
-    </li>
+    {navLinks.cta && (
+      <li className="w-full md:w-auto">
+        <Link
+          href={navLinks.cta.url}
+          className={cn(
+            buttonVariants({ variant: 'default', size: 'default' }),
+            'w-full md:w-auto'
+          )}
+        >
+          {navLinks.cta.name}
+        </Link>
+      </li>
+    )}
   </ul>
 );
 

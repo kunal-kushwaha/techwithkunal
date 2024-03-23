@@ -72,10 +72,6 @@ export const NAV_LINKS_COURSE: NavLinksType = {
       url: '#newsletter',
     },
   ],
-  cta: {
-    name: 'Get in touch',
-    url: 'mailto:kunal@wemakedevs.org',
-  },
 };
 
 export const TESTIMONIALS_HOME: Testimonials = [
