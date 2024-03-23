@@ -12,6 +12,8 @@ import Image from 'next/image';
 
 const Testimonials = ({
   testimonials,
+  title,
+  description,
   className,
   ...props
 }: TestimonialsProps) => {
@@ -22,11 +24,21 @@ const Testimonials = ({
       {...props}
     >
       <ViewContainer className="">
+        {title && (
+          <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-center">
+            {title}
+          </h2>
+        )}
+        {description && (
+          <p className="mt-2 md:mt-3 lg:mt-4 text-gray-500 text-medium text-center w-full md:max-w-[75%] lg:max-w-[70%] mx-auto">
+            {description}
+          </p>
+        )}
         <Carousel
           opts={{
             loop: true,
           }}
-          className="relative"
+          className="relative mt-6 md:mt-8 lg:mt-10"
         >
           <CarouselContent>
             {testimonials.map((testimonial, key) => (

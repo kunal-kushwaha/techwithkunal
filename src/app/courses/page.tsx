@@ -9,7 +9,11 @@ import CoursesSponsorships from '@/components/CoursesSponsorships';
 const Courses = () => {
   return (
     <div>
-      <Testimonials testimonials={TESTIMONIALS_COURSES} />
+      <Testimonials
+        title="Courses that inspire"
+        description="My courses have been viewed by 350K+ developers on YouTube and have recieved over 20K+ reviews. I make courses not to teach, but to inspire."
+        testimonials={TESTIMONIALS_COURSES}
+      />
       <SocialProof />
       <CoursesCards />
       <FAQs

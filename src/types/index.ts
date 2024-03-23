@@ -71,6 +71,8 @@ type Testimonial = {
 export type Testimonials = Testimonial[];
 
 export interface TestimonialsProps extends GeneralComponent {
+  title?: string;
+  description?: string;
   testimonials: Testimonials;
 }
 
