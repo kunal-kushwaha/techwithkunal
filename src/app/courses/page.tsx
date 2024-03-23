@@ -12,6 +12,7 @@ import { ArrowDown } from 'lucide-react';
 import Link from 'next/link';
 import { COURSES_FAQS, TESTIMONIALS_COURSES } from '@/constants';
 import Testimonials from '@/components/Testimonials';
+import Newsletter from '@/components/Newsletter';
 
 const Courses = () => {
   return (
@@ -39,6 +40,7 @@ const Courses = () => {
         items={COURSES_FAQS}
       />
       <Testimonials testimonials={TESTIMONIALS_COURSES} />
+      <Newsletter />
     </div>
   );
 };
