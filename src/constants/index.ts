@@ -198,6 +198,11 @@ export const FOOTER_LINKS: FooterLinks = [
         openInNewPage: true,
       },
       {
+        name: 'GitHub',
+        url: 'https://github.com/kunal-kushwaha',
+        openInNewPage: true,
+      },
+      {
         name: 'Instagram',
         url: 'https://www.instagram.com/kunalsig/',
         openInNewPage: true,

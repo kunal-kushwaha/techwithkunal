@@ -2,7 +2,8 @@ import { cn } from '@/lib/utils';
 import { AboutProps } from '@/types';
 import { ViewContainer } from './ui/view-container';
 import { Icon } from './ui/icon';
-import { Zap } from 'lucide-react';
+import { ArrowUpRight, Zap } from 'lucide-react';
+import Link from 'next/link';
 
 const About = ({ className, ...props }: AboutProps) => {
   return (
@@ -18,7 +19,14 @@ const About = ({ className, ...props }: AboutProps) => {
           </Icon>
           <h2 className="text-3xl font-semibold mt-4 md:mt-6">About me.</h2>
           <p className="text-gray-500 text-lg md:text-[20px] mt-3 md:mt-5">
-            DevRel manager at Civo, CNCF Ambassador, GitHub Star
+            DevRel manager at{' '}
+            <Link
+              href="https://www.civo.com/"
+              className="underline hover:no-underline"
+            >
+              Civo
+            </Link>
+            , CNCF Ambassador, GitHub Star
           </p>
         </div>
         <div className="md:row-start-2 lg:row-start-auto md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
@@ -42,7 +50,14 @@ const About = ({ className, ...props }: AboutProps) => {
           </div>
           <div>
             <h3 className="text-lg md:text-[20px] font-medium">
-              Community Leader & Keynote Speaker
+              Community Leader &{' '}
+              <Link
+                href="https://www.credly.com/users/kunalkushwaha/badges"
+                className="group underline hover:no-underline inline-flex gap-2 items-center"
+              >
+                Keynote Speaker{' '}
+                <ArrowUpRight className="group-hover:translate-x-1 transition-transform" />
+              </Link>
             </h3>
             <p className="text-gray-500 text-base mt-2">
               Renowned for exceptional community leadership and engaging as a

@@ -75,11 +75,13 @@ const Navbar = ({ className, ...props }: NavbarProps) => {
       {...props}
     >
       <ViewContainer className="flex justify-between items-center h-20 relative overflow-x-clip">
-        <Image
-          src={logoType}
-          alt="Kunal Kushwaha"
-          className="w-40 md:w-48 lg:w-52"
-        />
+        <Link href="/">
+          <Image
+            src={logoType}
+            alt="Kunal Kushwaha"
+            className="w-40 md:w-48 lg:w-52"
+          />
+        </Link>
         <Button
           variant="outline"
           size="icon"
