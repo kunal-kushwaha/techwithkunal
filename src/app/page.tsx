@@ -34,10 +34,18 @@ export default function Home() {
           </span>
         </HeaderTitle>
         <HeaderDescription>
-          Kunal Kushwaha works as a Developer Relations Manager at Civo, where
-          he drives innovation in cloud-native technologies and has educated
-          thousands of developers. Renowned for his empathetic approach and
-          community leadership, he has been a speaker at global tech
+          Kunal Kushwaha works as a Developer Relations Manager at{' '}
+          <Link
+            href="https://www.civo.com"
+            className="underline hover:no-underline"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Civo
+          </Link>
+          , where he drives innovation in cloud-native technologies and has
+          educated thousands of developers. Renowned for his empathetic approach
+          and community leadership, he has been a speaker at global tech
           conferences, embodying expertise and passion in every endeavor.
         </HeaderDescription>
         <HeaderCta>

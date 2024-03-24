@@ -23,6 +23,8 @@ const About = ({ className, ...props }: AboutProps) => {
             <Link
               href="https://www.civo.com/"
               className="underline hover:no-underline"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               Civo
             </Link>
@@ -54,6 +56,8 @@ const About = ({ className, ...props }: AboutProps) => {
               <Link
                 href="https://www.credly.com/users/kunalkushwaha/badges"
                 className="group underline hover:no-underline inline-flex gap-2 items-center"
+                target="_blank"
+                rel="noreferrer noopener"
               >
                 Keynote Speaker{' '}
                 <ArrowUpRight className="group-hover:translate-x-1 transition-transform" />
