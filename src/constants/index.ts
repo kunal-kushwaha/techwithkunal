@@ -156,26 +156,6 @@ export const TESTIMONIALS_COURSES: Testimonials = [
 
 export const FOOTER_LINKS: FooterLinks = [
   {
-    name: 'Courses',
-    links: [
-      {
-        name: 'Data Structures & Algorithms',
-        url: 'https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=uLbn3WbjuzBAqmt8',
-        openInNewPage: true,
-      },
-      {
-        name: 'DevOps',
-        url: 'https://youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&si=yjQNeFziZFkv9Ed2',
-        openInNewPage: true,
-      },
-      {
-        name: 'Git & GitHub',
-        url: 'https://youtu.be/apGV9Kg7ics?si=5Fpqcpa_665QMtOl',
-        openInNewPage: true,
-      },
-    ],
-  },
-  {
     name: 'Socials',
     links: [
       {
@@ -202,6 +182,27 @@ export const FOOTER_LINKS: FooterLinks = [
         name: 'Instagram',
         url: 'https://www.instagram.com/kunalsig/',
         openInNewPage: true,
+      },
+    ],
+  },
+  {
+    name: 'Other',
+    links: [
+      {
+        name: 'Reddit',
+        url: 'https://www.reddit.com/user/KunalsReddit/',
+      },
+      {
+        name: 'YouTube Hindi',
+        url: 'https://www.youtube.com/@KunalHindi',
+      },
+      {
+        name: 'GitHub Stars',
+        url: 'https://stars.github.com/profiles/kunal-kushwaha/',
+      },
+      {
+        name: 'Credly',
+        url: 'https://www.credly.com/users/kunalkushwaha/badges',
       },
     ],
   },

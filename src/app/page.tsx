@@ -48,7 +48,7 @@ export default function Home() {
             <ArrowDown /> Know more
           </Link>
           <Link
-            href="mailto:kunal@wemakedevs.org"
+            href="mailto:contact@techwithkunal.com"
             className={cn(buttonVariants({ variant: 'default', size: 'lg' }))}
           >
             Get in touch
