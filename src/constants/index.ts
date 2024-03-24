@@ -1,5 +1,7 @@
 import {
-  courseCourse1,
+  courseDevops,
+  courseDsa,
+  courseGit,
   testimonialAnuragh,
   testimonialEkjot,
   testimonialKubesphereAuthor,
@@ -236,14 +238,14 @@ export const FOOTER_LINKS: FooterLinks = [
 
 export const COURSES: CoursesInfo = [
   {
-    title: 'A short and simple course title will be here',
+    title: 'Data Structures & Algorithms in Java',
     description:
-      "A brief description of the course will be here. It'll brefily explain what he course is.",
-    slug: 'course1',
+      'Get interview-ready with this course that has no prerequisites and is designed to make you an expert in solving easy to hard LeetCode problems with ease',
+    slug: 'dsa',
     about:
       "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
-    image: courseCourse1,
-    link: '#',
+    image: courseDsa,
+    link: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ',
     syllabus: [
       {
         title: 'Syllabus first point',
@@ -292,14 +294,70 @@ export const COURSES: CoursesInfo = [
     ],
   },
   {
-    title: 'A short and simple course title will be here',
+    title: 'DevOps Bootcamp',
     description:
-      "A brief description of the course will be here. It'll brefily explain what he course is.",
-    slug: 'course1',
+      'Without a doubt, DevOps engineer is the most in-demand role in the current market, especially with an increased number of high paying remote opportunities.',
+    slug: 'devops',
     about:
       "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
-    image: courseCourse1,
-    link: '#',
+    image: courseDevops,
+    link: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
+    syllabus: [
+      {
+        title: 'Syllabus first point',
+        description:
+          'Syllabus first point description explaining the part of the course.',
+      },
+      {
+        title: 'Syllabus second point',
+        description:
+          'Second points description explaining the part of the course.',
+      },
+      {
+        title: 'Another point of syllabus',
+        description:
+          'And this paragram will expalin that another point of the syllabus.',
+      },
+      {
+        title: 'I can call it the last part',
+        description:
+          "And so is this in terms of the description. Interesting, isn't it?",
+      },
+    ],
+    faqs: [
+      {
+        title: 'First question in FAQ part',
+        description:
+          'The answer to that question will be here. Depends how big it will be.',
+      },
+      {
+        title: 'And another question here',
+        description:
+          'and another answer should be here. Kinda tired to write all this lol.',
+      },
+    ],
+    resources: [
+      {
+        title: 'Resource title should be here',
+        description: 'A little description about the resource should be here.',
+        url: '#',
+      },
+      {
+        title: 'Another resources title here',
+        description: 'and another description for the resource will be here',
+        url: '#',
+      },
+    ],
+  },
+  {
+    title: 'Complete Git and GitHub',
+    description:
+      'Kick-off your Open Source journey with the complete Git & GitHub tutorial covering all the fundamentals and advance concepts with a hands-on approach.',
+    slug: '',
+    about:
+      "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
+    image: courseGit,
+    link: 'https://www.youtube.com/watch?v=apGV9Kg7ics',
     syllabus: [
       {
         title: 'Syllabus first point',
