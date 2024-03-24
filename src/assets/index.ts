@@ -17,6 +17,10 @@ import companyRazorpay from './company_razorpay.svg';
 import companyClicklab from './company_clicklab.svg';
 import companySamsung from './company_samsung.svg';
 import companyAdobe from './company_adobe.svg';
+import companyMicrosoft from './company_microsoft.svg';
+import companyVirtusa from './company_virtusa.svg';
+import companyAmazon from './company_amazon.svg';
+import companyBlackrock from './company_blackrock.svg';
 import testimonialAnuragh from './testimonial_anuragh.jpg';
 import testimonialSiva from './testimonial_siva.jpg';
 import testimonialSajjan from './testimonial_sajjan.jpg';
@@ -44,6 +48,10 @@ export {
   companyGoogle,
   companySamsung,
   companyRazorpay,
+  companyAmazon,
+  companyBlackrock,
+  companyVirtusa,
+  companyMicrosoft,
   testimonialRahul,
   testimonialEkjot,
   testimonialPrassana,
