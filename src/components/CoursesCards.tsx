@@ -31,6 +31,8 @@ const CoursesCards = ({ className, ...props }: CoursesCardsProps) => {
                 <Link
                   href={course.link}
                   className="flex gap-2 text-primary font-medium group w-fit"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   View course{' '}
                   <ArrowUpRight className="group-hover:translate-x-1 transition-transform" />

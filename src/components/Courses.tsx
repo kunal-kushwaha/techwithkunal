@@ -79,6 +79,8 @@ const Courses = ({ className, ...props }: CoursesProps) => {
             'mx-auto flex md:w-fit'
           )}
           href="/courses"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           Explore courses <ArrowUpRight />
         </Link>

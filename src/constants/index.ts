@@ -231,6 +231,7 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         name: 'Courses',
         url: '/courses',
+        openInNewPage: true,
       },
     ],
   },
