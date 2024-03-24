@@ -42,11 +42,11 @@ export const NAV_LINKS: NavLinksType = {
       url: '/blog',
       openInNewPage: true,
     },
+    {
+      name: 'Newsletter',
+      url: '#newsletter',
+    },
   ],
-  cta: {
-    name: 'Newsletter',
-    url: '/#newsletter',
-  },
 };
 
 export const NAV_LINKS_COURSE: NavLinksType = {
