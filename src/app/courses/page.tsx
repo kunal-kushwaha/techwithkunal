@@ -10,15 +10,15 @@ const Courses = () => {
   return (
     <div>
       <Testimonials
-        title="Courses that inspire"
-        description="My courses have been viewed by 350K+ developers on YouTube and have recieved over 20K+ reviews. I make courses not to teach, but to inspire."
+        title="Educating thousands, one course at a time"
+        description="Experience the transformative power of my courses, meticulously crafted to provide hands-on learning and propel you towards your professional aspirations. Join thousands of successful learners who have achieved their goals through my proven curriculum."
         testimonials={TESTIMONIALS_COURSES}
       />
       <SocialProof />
       <CoursesCards className="bg-gray-50" />
       <FAQs
         title="Frequently asked questions"
-        description="Everything you need to know about the courses and resources."
+        description="Find solutions to common queries"
         items={COURSES_FAQS}
       />
       <CoursesSponsorships />

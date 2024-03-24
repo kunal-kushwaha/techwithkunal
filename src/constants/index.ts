@@ -346,28 +346,23 @@ export const COURSES: CoursesInfo = [
 
 export const COURSES_FAQS: CoursesFaqs = [
   {
-    title: 'Are all your courses free?',
+    title: 'Are all your courses free of cost?',
     description:
-      'Yes! All of our courses are and will always be free as well as high quality. You can find those on our YouTube channel.',
-  },
-  {
-    title: 'How do I get my doubts resolved?',
-    description:
-      'Join our Discord community along with thousands of others and feel free to ask your doubts in the relevant channels.',
-  },
-  {
-    title: 'Is your community beginner friendly?',
-    description:
-      'Yes! Even non-coders are welcome. Our courses are designed in such a way that anyone can get started with it. Even people who have never programmed before!',
+      'Yes, absolutely. My courses are meticulously curated to offer high-quality content without any cost to you.',
   },
   {
     title: 'Do you provide notes and assignments?',
     description:
-      "Yes. It's crucial to revise the topics and self practice after watching the tutorials and we provide materials for the same.",
+      'Certainly. You can access comprehensive notes and engaging assignments conveniently located in the resources section of each course page.',
   },
   {
-    title: 'Do you provide mentorship and guidance?',
+    title: 'Are the courses applicable to solve real-world problems?',
     description:
-      'Yes. That is the highlight of our community. Get expert guidance from industry experts from around the world. You can learn more and get inspired by their stories and roadmaps via the podcast Open Source Cafe.',
+      'Absolutely. I prioritize hands-on learning with practical, real-world examples integrated throughout each course, ensuring applicability to real-world scenarios.',
+  },
+  {
+    title: 'Are there any prerequisites?',
+    description:
+      'My courses are designed to be inclusive, with minimal entry barriers. Visit the course page to explore any prerequisites, if applicable, and embark on your learning journey seamlessly.',
   },
 ];

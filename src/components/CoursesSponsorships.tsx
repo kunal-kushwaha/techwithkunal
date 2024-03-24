@@ -17,12 +17,16 @@ const CoursesSponsorships = ({
     >
       <ViewContainer className="flex flex-col items-center">
         <h2 className="text-3xl font-semibold text-center">
-          A course crafted for your product.
+          Elevate your product through tailored courses
         </h2>
         <p className="w-full md:max-w-[80%] lg:max-w-[70%] text-gray-500 text-lg md:text-[20px] mt-3 md:mt-4 lg:mt-5 text-center">
-          I partner with developer technologies and tech products to teach my
-          developer audience about those technologies. Do you want a course
-          created for your product? Let&apos;s partner.
+          Unlock the full potential of your product with tailored courses
+          designed to empower developers and users alike. By partnering with me,
+          you gain access to a dynamic platform where your product can be
+          showcased, explored, and mastered by a vast audience of eager
+          learners. Together, we can create impactful educational experiences
+          that drive engagement, foster innovation, and solidify your
+          brand&apos;s position as a leader in the industry.{' '}
         </p>
         <Link
           href="/#sponsorships"

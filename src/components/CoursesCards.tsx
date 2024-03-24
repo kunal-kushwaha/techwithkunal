@@ -15,11 +15,11 @@ const CoursesCards = ({ className, ...props }: CoursesCardsProps) => {
     >
       <ViewContainer className="">
         <h2 className="text-3xl font-semibold text-center">
-          Same courses card section title
+          Empower your development journey
         </h2>
         <p className="mx-auto text-gray-500 text-lg md:text-[20px] mt-3 md:mt-4 lg:mt-5 text-center w-full md:max-w-[75%] lg:max-w-[70%]">
-          And we can put a very basic description here if you&apos;d like. Just
-          a couple of sentences and it&apos;ll be fine.
+          Unlock your potential with expert-led courses designed to enhance your
+          skills and propel your career forward.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-7 lg:gap-8 mt-8 md:mt-10 lg:mt-12">
           {COURSES.map((course, key) => (
