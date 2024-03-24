@@ -36,7 +36,7 @@ const Courses = ({ className, ...props }: CoursesProps) => {
             </Icon>
             <div className="text-center space-y-1 md:space-y-2">
               <h3 className="text-lg md:text-[20px] font-medium">
-                Widely Acclaimed Courses
+                Widely acclaimed courses
               </h3>
               <p className="text-gray-500 text-base">
                 Join thousands who have benefitted from my courses, backed by
@@ -50,7 +50,7 @@ const Courses = ({ className, ...props }: CoursesProps) => {
             </Icon>
             <div className="text-center space-y-1 md:space-y-2">
               <h3 className="text-lg md:text-[20px] font-medium">
-                Latest Tech Trends Webinars
+                Latest tech trends webinars
               </h3>
               <p className="text-gray-500 text-base">
                 Regular webinars and sessions to keep you updated with the
@@ -64,7 +64,7 @@ const Courses = ({ className, ...props }: CoursesProps) => {
             </Icon>
             <div className="text-center space-y-1 md:space-y-2">
               <h3 className="text-lg md:text-[20px] font-medium">
-                Free Access to Knowledge
+                Free access to knowledge
               </h3>
               <p className="text-gray-500 text-base">
                 All courses are completely free to watch, making quality

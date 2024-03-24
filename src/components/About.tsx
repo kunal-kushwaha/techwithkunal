@@ -28,13 +28,13 @@ const About = ({ className, ...props }: AboutProps) => {
             >
               Civo
             </Link>
-            , CNCF Ambassador, GitHub Star
+            , CNCF ambassador, GitHub star
           </p>
         </div>
         <div className="md:row-start-2 lg:row-start-auto md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
           <div>
             <h3 className="text-lg md:text-[20px] font-medium">
-              Educator and Mentor
+              Educator and mentor
             </h3>
             <p className="text-gray-500 text-base mt-2">
               Has educated thousands of developers, sharing in-depth knowledge
@@ -43,7 +43,7 @@ const About = ({ className, ...props }: AboutProps) => {
           </div>
           <div>
             <h3 className="text-lg md:text-[20px] font-medium">
-              DevOps Consultant
+              DevOps consultant
             </h3>
             <p className="text-gray-500 text-base mt-2">
               Provides insightful consultancy to companies embarking on their
@@ -52,14 +52,14 @@ const About = ({ className, ...props }: AboutProps) => {
           </div>
           <div>
             <h3 className="text-lg md:text-[20px] font-medium">
-              Community Leader &{' '}
+              Community leader &{' '}
               <Link
                 href="https://www.credly.com/users/kunalkushwaha/badges"
                 className="group underline hover:no-underline inline-flex gap-2 items-center"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                Keynote Speaker{' '}
+                keynote speaker{' '}
                 <ArrowUpRight className="group-hover:translate-x-1 transition-transform" />
               </Link>
             </h3>
@@ -70,7 +70,7 @@ const About = ({ className, ...props }: AboutProps) => {
           </div>
           <div>
             <h3 className="text-lg md:text-[20px] font-medium">
-              Empathy and Professionalism
+              Empathy and professionalism
             </h3>
             <p className="text-gray-500 text-base mt-2">
               Known for a unique blend of empathetic understanding and

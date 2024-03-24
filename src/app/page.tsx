@@ -34,7 +34,7 @@ export default function Home() {
           </span>
         </HeaderTitle>
         <HeaderDescription>
-          Kunal Kushwaha works as a Developer Relations Manager at{' '}
+          Kunal Kushwaha works as a developer relations manager at{' '}
           <Link
             href="https://www.civo.com"
             className="underline hover:no-underline"

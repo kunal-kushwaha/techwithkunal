@@ -43,7 +43,7 @@ const Sponsorships = ({ className, ...props }: SponsorshipsProps) => {
               <Rss />
             </Icon>
             <h3 className="text-lg md:text-[20px] font-medium mt-10 md:mt-12 lg:mt-16">
-              Dynamic Content Creation
+              Dynamic content creation
             </h3>
             <p className="text-gray-500 text-base mt-2">
               Leveraging my 600,000 YouTube subscribers, I create engaging video
@@ -57,7 +57,7 @@ const Sponsorships = ({ className, ...props }: SponsorshipsProps) => {
               <Zap />
             </Icon>
             <h3 className="text-lg md:text-[20px] font-medium mt-10 md:mt-12 lg:mt-16">
-              Engaging Events
+              Engaging events
             </h3>
             <p className="text-gray-500 text-base mt-2">
               I host a variety of events, both online and in-person, attended by
@@ -71,7 +71,7 @@ const Sponsorships = ({ className, ...props }: SponsorshipsProps) => {
               <LineChart />
             </Icon>
             <h3 className="text-lg md:text-[20px] font-medium mt-10 md:mt-12 lg:mt-16">
-              Strategic Consulting
+              Strategic consulting
             </h3>
             <p className="text-gray-500 text-base mt-2">
               With my experience in growing numerous open-source projects, I
@@ -84,7 +84,7 @@ const Sponsorships = ({ className, ...props }: SponsorshipsProps) => {
               <HeartHandshake />
             </Icon>
             <h3 className="text-lg md:text-[20px] font-medium mt-10 md:mt-12 lg:mt-16">
-              DevRel Support
+              DevRel support
             </h3>
             <p className="text-gray-500 text-base mt-2">
               I extend support to your Developer Relations efforts, aligning
