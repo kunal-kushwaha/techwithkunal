@@ -191,18 +191,22 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         name: 'Reddit',
         url: 'https://www.reddit.com/user/KunalsReddit/',
+        openInNewPage: true,
       },
       {
         name: 'YouTube Hindi',
         url: 'https://www.youtube.com/@KunalHindi',
+        openInNewPage: true,
       },
       {
         name: 'GitHub Stars',
         url: 'https://stars.github.com/profiles/kunal-kushwaha/',
+        openInNewPage: true,
       },
       {
         name: 'Credly',
         url: 'https://www.credly.com/users/kunalkushwaha/badges',
+        openInNewPage: true,
       },
     ],
   },
