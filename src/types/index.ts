@@ -96,7 +96,7 @@ export interface NewsletterProps extends GeneralComponent {}
 
 type CourseSyllabusPoint = {
   title: string;
-  description: string;
+  points: string[] | string;
 };
 
 type CourseSingleResource = {
@@ -127,7 +127,7 @@ type CourseInfo = {
   link: string;
   syllabus: CourseSyllabusPoint[];
   resources: CourseSingleResource[];
-  faqs: SingleFaq[];
+  hasPage?: boolean;
 };
 
 export type CoursesInfo = CourseInfo[];

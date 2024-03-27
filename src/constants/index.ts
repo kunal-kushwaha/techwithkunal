@@ -2,6 +2,7 @@ import {
   courseDevops,
   courseDsa,
   courseGit,
+  courseSinglestore,
   testimonialAnuragh,
   testimonialEkjot,
   testimonialKubesphereAuthor,
@@ -239,7 +240,74 @@ export const FOOTER_LINKS: FooterLinks = [
 
 export const COURSES: CoursesInfo = [
   {
+    title: 'Introduction to Gen AI and Retrieval Augmented Generation (RAG)',
+    hasPage: true,
+    description:
+      "In this comprehensive course, you'll delve into the cutting-edge realm of Gen AI and Retrieval Augmented Generation (RAG), with a focus on leveraging SingleStore technology.",
+    about:
+      "In this comprehensive course, you'll delve into the cutting-edge realm of Gen AI and Retrieval Augmented Generation (RAG), with a focus on leveraging SingleStore technology. Explore the fundamentals of AI, emphasizing the critical role of data, and uncover the intricacies of RAG technology. From understanding semantic search and vectors to mastering the construction of Gen AI applications using RAG architecture and SingleStore, this course equips you with the knowledge and tools necessary to navigate the forefront of AI innovation. By the course's end, you'll be proficient in deploying your creations to production, ready to make your mark in the ever-evolving landscape of artificial intelligence.",
+    image: courseSinglestore,
+    link: '',
+    slug: 'genai-singlestore',
+    resources: [
+      {
+        title: 'Playlist link',
+        description: '',
+        url: '',
+      },
+      {
+        title: 'Sign up to SingleStore',
+        description: '',
+        url: '',
+      },
+      {
+        title: 'Code repository link',
+        description: '',
+        url: '',
+      },
+    ],
+    syllabus: [
+      {
+        title:
+          'Intro to Gen AI and Retrieval Augmented Generation (RAG) - 30 min',
+        points: [
+          'The most important part of AI - Data.',
+          'Making AI apps that are data-aware.',
+          'What is RAG?',
+          'Is there an alternative to RAG?',
+          'What do you need to build a RAG based app?',
+        ],
+      },
+      {
+        title:
+          'Intro to Semantic Search, Vectors and Vector Databases - 45 min',
+        points: [
+          'What is semantic search and Vectors.',
+          'What are vector indexes?',
+          'What is a contextual database?',
+          'What to look for in a database?',
+          'SingleStore story and roadmap. A short hands on session',
+        ],
+      },
+      {
+        title: 'How to build a Gen AI app with RAG - 60 min',
+        points: [
+          'Intro to the RAG architecture and libraries - LangChain and LlamaIndex.',
+          'Building the base layer - Intro to Notebooks and creating embeddings and storing them in a database.',
+          'Hybrid search and retrieval of contextual data.',
+          'Choosing your LLMs - Vertex AI, Bedrock, etc.',
+          'Building the UI layer - SingleStore Elegance SDK',
+        ],
+      },
+      {
+        title: 'Deploying your app to production - 30 min',
+        points: '',
+      },
+    ],
+  },
+  {
     title: 'Data Structures & Algorithms in Java',
+    hasPage: true,
     description:
       'Get interview-ready with this course that has no prerequisites and is designed to make you an expert in solving easy to hard LeetCode problems with ease',
     slug: 'dsa',
@@ -247,55 +315,121 @@ export const COURSES: CoursesInfo = [
       "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
     image: courseDsa,
     link: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ',
-    syllabus: [
-      {
-        title: 'Syllabus first point',
-        description:
-          'Syllabus first point description explaining the part of the course.',
-      },
-      {
-        title: 'Syllabus second point',
-        description:
-          'Second points description explaining the part of the course.',
-      },
-      {
-        title: 'Another point of syllabus',
-        description:
-          'And this paragram will expalin that another point of the syllabus.',
-      },
-      {
-        title: 'I can call it the last part',
-        description:
-          "And so is this in terms of the description. Interesting, isn't it?",
-      },
-    ],
-    faqs: [
-      {
-        title: 'First question in FAQ part',
-        description:
-          'The answer to that question will be here. Depends how big it will be.',
-      },
-      {
-        title: 'And another question here',
-        description:
-          'and another answer should be here. Kinda tired to write all this lol.',
-      },
-    ],
     resources: [
       {
-        title: 'Resource title should be here',
+        title: 'Playlist',
         description: 'A little description about the resource should be here.',
-        url: '#',
+        url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ',
       },
       {
-        title: 'Another resources title here',
+        title: 'Notes & assignments',
         description: 'and another description for the resource will be here',
-        url: '#',
+        url: 'https://github.com/kunal-kushwaha/DSA-Bootcamp-Java',
+      },
+    ],
+    syllabus: [
+      {
+        title: 'Introduction to programming',
+        points: 'Types of languages. Memory management.',
+      },
+      {
+        title: 'Flow of program',
+        points: 'Flowcharts, pattern questions, and pseudocode.',
+      },
+      {
+        title: 'Introduction to Java',
+        points:
+          'How Java works, setup installation, input and output, conditionals and loops, data types, and coding best practices.',
+      },
+      {
+        title: 'Functions / Methods',
+        points:
+          'Introduction to functions, scoping, shadowing, functional arguments, function overloading.',
+      },
+      {
+        title: 'Arrays and ArrayList',
+        points:
+          'How arrays work in Java, memory management, input and output, ArrayList introduction.',
+      },
+      {
+        title: 'Searching',
+        points: 'Linear, binary, modified binary search.',
+      },
+      {
+        title: 'Sorting',
+        points:
+          'Insertion, selection, bubble, cyclic, merge, quick, count, radix, and heap sort.',
+      },
+      {
+        title: 'Time and space complexity',
+        points:
+          'Introduction, various cases, linear recurrence, divide-n-conquer recurrence, notations, solving recurrences, space complexity, NP-completeness.',
+      },
+      {
+        title: 'Mathematics',
+        points:
+          'Bitwise operators, range of data types, prime numbers, factors, modulo properties, number theory.',
+      },
+      {
+        title: 'Recursion',
+        points:
+          'Introduction, how to master recursion, flow of program, tree building, tail recursion, sorting, string, array, pattern, subset questions.',
+      },
+      {
+        title: 'Backtracking',
+        points:
+          'Introduction, Maze problems, N-queens, N-knights, sudoku solver.',
+      },
+      {
+        title: 'Object-Oriented Programming',
+        points:
+          'Introduction, classes, objects, this keyword, properties, overloading, overriding, static, packages, access control, interfaces, abstract classes, annotations, singleton class, keywords, object class, generics, exception handling, vector class, collections framework, lambda expressions, enums.',
+      },
+      {
+        title: 'Linked List',
+        points:
+          'Introduction, singly, doubly, circular, fast and slow pointer, cycle detection, reversal of Linked List, Linked List with recursion.',
+      },
+      {
+        title: 'Stacks and Queues',
+        points:
+          'Introduction, push efficient, pop efficient, queue using stack and vice versa, circular queue.',
+      },
+      {
+        title: 'Trees',
+        points:
+          'Introduction to binary trees, binary search trees, DFS, BFS, AVL trees, segment trees.',
+      },
+      {
+        title: 'Hashmaps',
+        points:
+          'Introduction, theory, comparisons, limitations, map using Linked List, map using Hash, sorting, chaining, probing, Huffman-encoder.',
+      },
+      {
+        title: 'Dynamic programming',
+        points:
+          'Introduction, recursion, recursion + dp, iteration, iteration + space optimized, complexity analysis, 0/1 Knapsack, subset questions, unbounded knapsack, subsequence questions, string dp.',
+      },
+      {
+        title: 'Heaps',
+        points:
+          'Introduction, theory, priority queue, heapsort, two heaps method, k-way merge, top-k elements, interval problems.',
+      },
+      {
+        title: 'Graph theory',
+        points:
+          "Introduction, BFS, DFS, components, minimum spanning trees, Kruskal, Prims, Dijkstra's shortest path, topological sort, Bellman ford, A* pathfinding.",
+      },
+      {
+        title: 'Additional topics',
+        points:
+          "Greedy algorithms, tries, sliding window, two pointer, Kadane's algorithm, and more!",
       },
     ],
   },
   {
     title: 'DevOps Bootcamp',
+    hasPage: true,
     description:
       'Without a doubt, DevOps engineer is the most in-demand role in the current market, especially with an increased number of high paying remote opportunities.',
     slug: 'devops',
@@ -303,40 +437,6 @@ export const COURSES: CoursesInfo = [
       "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
     image: courseDevops,
     link: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
-    syllabus: [
-      {
-        title: 'Syllabus first point',
-        description:
-          'Syllabus first point description explaining the part of the course.',
-      },
-      {
-        title: 'Syllabus second point',
-        description:
-          'Second points description explaining the part of the course.',
-      },
-      {
-        title: 'Another point of syllabus',
-        description:
-          'And this paragram will expalin that another point of the syllabus.',
-      },
-      {
-        title: 'I can call it the last part',
-        description:
-          "And so is this in terms of the description. Interesting, isn't it?",
-      },
-    ],
-    faqs: [
-      {
-        title: 'First question in FAQ part',
-        description:
-          'The answer to that question will be here. Depends how big it will be.',
-      },
-      {
-        title: 'And another question here',
-        description:
-          'and another answer should be here. Kinda tired to write all this lol.',
-      },
-    ],
     resources: [
       {
         title: 'Resource title should be here',
@@ -347,6 +447,82 @@ export const COURSES: CoursesInfo = [
         title: 'Another resources title here',
         description: 'and another description for the resource will be here',
         url: '#',
+      },
+    ],
+    syllabus: [
+      {
+        title: 'Introduction to networking',
+        points:
+          'Networking fundamentals, OSI layer protocols, port forwarding, how the internet works, command line tools, and more.',
+      },
+      {
+        title: 'Command line tools',
+        points:
+          'Various command line tools, bash scripting, regex, introduction to git, and more.',
+      },
+      {
+        title: 'Kubernetes',
+        points:
+          'Introduction, architecture, set-up, objects, networking, storage, HA, monitoring, logging, production-ready applications.',
+      },
+      {
+        title: 'Servers',
+        points: 'Introduction to web-servers, Nginx, and more.',
+      },
+      {
+        title: 'Infrastructure as code',
+        points:
+          'Infrastructure provisioning, Terraform, Pulumi, configuration management, and more.',
+      },
+      {
+        title: 'Service mesh',
+        points: 'Istio, Envoy, Linkerd, and more.',
+      },
+      {
+        title: 'Working with cloud providers',
+        points: 'Learn about cloud providers, design patterns, and more.',
+      },
+      {
+        title: 'Chaos engineering',
+        points: 'The next step in testing.',
+      },
+      {
+        title: 'Introduction to Linux',
+        points:
+          'Learn about the essentials of working with Linux, including some important commands.',
+      },
+      {
+        title: 'Docker',
+        points:
+          'Introduction to containers, hands-on demos, concepts, architecture, images, networking, best practices, development profiles, Docker Compose, Docker Swarm.',
+      },
+      {
+        title: 'GoLang',
+        points: 'Complete GoLang tutorial.',
+      },
+      {
+        title: 'CI/CD',
+        points:
+          'Setting up a CI/CD pipeline, GitHub Actions, Circle CI, and more.',
+      },
+      {
+        title: 'Monitoring and logging',
+        points:
+          'Monitoring tools and practices, Prometheus, Thanos, Grafana, Jaeger, New Relic, and more.',
+      },
+      {
+        title: 'GitOps',
+        points:
+          'Manage infrastructure and application configurations using Git.',
+      },
+      {
+        title: 'Testing',
+        points: 'Create robust applications with application testing.',
+      },
+      {
+        title: 'Cloud native tools deep dive',
+        points:
+          'Navigating the Cloud Native tools landscape with a hands-on deep dive to get you started with the use-cases and contributor journey of various projects',
       },
     ],
   },
@@ -355,56 +531,12 @@ export const COURSES: CoursesInfo = [
     description:
       'Kick-off your Open Source journey with the complete Git & GitHub tutorial covering all the fundamentals and advance concepts with a hands-on approach.',
     slug: '',
-    about:
-      "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
+    about: '',
     image: courseGit,
     link: 'https://www.youtube.com/watch?v=apGV9Kg7ics',
-    syllabus: [
-      {
-        title: 'Syllabus first point',
-        description:
-          'Syllabus first point description explaining the part of the course.',
-      },
-      {
-        title: 'Syllabus second point',
-        description:
-          'Second points description explaining the part of the course.',
-      },
-      {
-        title: 'Another point of syllabus',
-        description:
-          'And this paragram will expalin that another point of the syllabus.',
-      },
-      {
-        title: 'I can call it the last part',
-        description:
-          "And so is this in terms of the description. Interesting, isn't it?",
-      },
-    ],
-    faqs: [
-      {
-        title: 'First question in FAQ part',
-        description:
-          'The answer to that question will be here. Depends how big it will be.',
-      },
-      {
-        title: 'And another question here',
-        description:
-          'and another answer should be here. Kinda tired to write all this lol.',
-      },
-    ],
-    resources: [
-      {
-        title: 'Resource title should be here',
-        description: 'A little description about the resource should be here.',
-        url: '#',
-      },
-      {
-        title: 'Another resources title here',
-        description: 'and another description for the resource will be here',
-        url: '#',
-      },
-    ],
+    resources: [],
+    syllabus: [],
+    hasPage: false,
   },
 ];
 

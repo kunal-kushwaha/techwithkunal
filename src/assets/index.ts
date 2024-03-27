@@ -29,6 +29,7 @@ import testimonialRahul from './testimonial_rahul.jpg';
 import courseDsa from './course_dsa.jpg';
 import courseGit from './course_git.jpg';
 import courseDevops from './course_devops.jpg';
+import courseSinglestore from './course_singlestore.jpg';
 
 export {
   logoType,
@@ -62,4 +63,5 @@ export {
   courseDsa,
   courseGit,
   courseDevops,
+  courseSinglestore,
 };
