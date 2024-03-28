@@ -65,6 +65,10 @@ export interface CourseHeaderProps extends GeneralComponent {
   introVideoLink: string;
 }
 
+export interface CourseResourcesProps extends GeneralComponent {
+  resources: CourseSingleResource[];
+}
+
 type Testimonial = {
   text: string;
   author: {

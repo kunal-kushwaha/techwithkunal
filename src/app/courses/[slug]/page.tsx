@@ -1,4 +1,5 @@
 import CourseHeader from '@/components/CourseHeader';
+import CourseResources from '@/components/CourseResources';
 import { COURSES } from '@/constants';
 
 const CoursePage = ({ params }: { params: { slug: string } }) => {
@@ -21,6 +22,7 @@ const CoursePage = ({ params }: { params: { slug: string } }) => {
         introVideoLink={course.link}
         description={course.description}
       />
+      <CourseResources resources={course.resources} />
     </div>
   );
 };
