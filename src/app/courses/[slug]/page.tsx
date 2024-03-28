@@ -1,3 +1,4 @@
+import CourseAbout from '@/components/CourseAbout';
 import CourseHeader from '@/components/CourseHeader';
 import CourseResources from '@/components/CourseResources';
 import { COURSES } from '@/constants';
@@ -23,6 +24,7 @@ const CoursePage = ({ params }: { params: { slug: string } }) => {
         description={course.description}
       />
       <CourseResources resources={course.resources} />
+      <CourseAbout about={course.about} />
     </div>
   );
 };

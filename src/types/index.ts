@@ -69,6 +69,10 @@ export interface CourseResourcesProps extends GeneralComponent {
   resources: CourseSingleResource[];
 }
 
+export interface CourseAboutProps extends GeneralComponent {
+  about: string;
+}
+
 type Testimonial = {
   text: string;
   author: {
