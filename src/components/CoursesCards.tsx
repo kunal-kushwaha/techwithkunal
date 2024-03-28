@@ -29,7 +29,13 @@ const CoursesCards = ({ className, ...props }: CoursesCardsProps) => {
               <CardDescription>{course.description}</CardDescription>
               <CardCta>
                 <Link
-                  href={course.link}
+                  href={
+                    course.hasPage
+                      ? `/courses/${course.slug}`
+                      : course.link
+                        ? course.link
+                        : ''
+                  }
                   className="flex gap-2 text-primary font-medium group w-fit"
                   target="_blank"
                   rel="noopener noreferrer"

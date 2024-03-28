@@ -62,7 +62,7 @@ export interface CoursesSponsorshipsProps extends GeneralComponent {}
 export interface CourseHeaderProps extends GeneralComponent {
   title: string;
   description: string;
-  introVideoLink: string;
+  introVideoEmbedLink: string;
 }
 
 export interface CourseResourcesProps extends GeneralComponent {
@@ -147,10 +147,11 @@ type CourseInfo = {
   description: string;
   about: string;
   image: StaticImageData;
-  link: string;
+  link?: string;
+  hasPage?: boolean;
+  introVideoEmbedLink: string;
   syllabus: CourseSyllabusPoint[];
   resources: CourseSingleResource[];
-  hasPage?: boolean;
 };
 
 export type CoursesInfo = CourseInfo[];

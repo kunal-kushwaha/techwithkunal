@@ -6,7 +6,7 @@ const CourseHeader = ({
   className,
   title,
   description,
-  // introVideoLink,
+  introVideoEmbedLink,
   ...props
 }: CourseHeaderProps) => {
   return (
@@ -22,7 +22,7 @@ const CourseHeader = ({
         </div>
         <div>
           <iframe
-            src="https://www.youtube.com/embed/Bkd06J20mVU?si=fU36gcqV3is5EnXe"
+            src={introVideoEmbedLink}
             title="YouTube video player"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             className="aspect-video w-full"

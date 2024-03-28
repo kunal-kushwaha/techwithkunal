@@ -273,7 +273,8 @@ export const COURSES: CoursesInfo = [
     about:
       "In this comprehensive course, you'll delve into the cutting-edge realm of Gen AI and Retrieval Augmented Generation (RAG), with a focus on leveraging SingleStore technology. Explore the fundamentals of AI, emphasizing the critical role of data, and uncover the intricacies of RAG technology. From understanding semantic search and vectors to mastering the construction of Gen AI applications using RAG architecture and SingleStore, this course equips you with the knowledge and tools necessary to navigate the forefront of AI innovation. By the course's end, you'll be proficient in deploying your creations to production, ready to make your mark in the ever-evolving landscape of artificial intelligence.",
     image: courseSinglestore,
-    link: '',
+    introVideoEmbedLink:
+      'https://www.youtube.com/embed/rZ41y93P2Qo?si=qOxeJ3kPTkYbER7g',
     slug: 'genai-singlestore',
     resources: [
       {
@@ -327,7 +328,7 @@ export const COURSES: CoursesInfo = [
       },
       {
         title: 'Deploying your app to production - 30 min',
-        points: '',
+        points: [''],
       },
     ],
   },
@@ -340,7 +341,8 @@ export const COURSES: CoursesInfo = [
     about:
       "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
     image: courseDsa,
-    link: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ',
+    introVideoEmbedLink:
+      'https://www.youtube.com/embed/rZ41y93P2Qo?si=qOxeJ3kPTkYbER7g',
     resources: [
       {
         title: 'Playlist',
@@ -462,7 +464,8 @@ export const COURSES: CoursesInfo = [
     about:
       "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
     image: courseDevops,
-    link: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
+    introVideoEmbedLink:
+      'https://www.youtube.com/embed/ZbG0c87wcM8?si=7YdqdBa9mq1J88w9',
     resources: [
       {
         title: 'Resource title should be here',
@@ -560,6 +563,8 @@ export const COURSES: CoursesInfo = [
     about: '',
     image: courseGit,
     link: 'https://www.youtube.com/watch?v=apGV9Kg7ics',
+    introVideoEmbedLink:
+      'https://www.youtube.com/embed/apGV9Kg7ics?si=2uR5qBk46yPyHLeT',
     resources: [],
     syllabus: [],
     hasPage: false,

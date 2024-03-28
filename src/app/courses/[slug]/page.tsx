@@ -21,7 +21,7 @@ const CoursePage = ({ params }: { params: { slug: string } }) => {
     <div>
       <CourseHeader
         title={course.title}
-        introVideoLink={course.link}
+        introVideoEmbedLink={course.introVideoEmbedLink}
         description={course.description}
       />
       <CourseResources resources={course.resources} />
