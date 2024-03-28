@@ -11,7 +11,7 @@ const CourseSyllabus = ({
   return (
     <section
       id="syllabus"
-      className={cn(className, 'py-10 md:py-12 lg:py-20')}
+      className={cn(className, 'py-16 md:py-20 lg:py-24')}
       {...props}
     >
       <ViewContainer className="">
