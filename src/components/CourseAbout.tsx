@@ -11,7 +11,7 @@ const CourseAbout = ({ className, about, ...props }: CourseAboutProps) => {
     >
       <ViewContainer className="">
         <h2 className="text-3xl font-semibold">About the course</h2>
-        <p className="w-full md:max-w-[70%] lg:max-w-[75%] text-sm md:text-base mt-8 md:mt-10 lg:mt-12">
+        <p className="text-gray-500 text-lg md:text-[20px] mt-3 md:mt-5 max-w-full md:max-w-[75%]">
           {about}
         </p>
       </ViewContainer>

@@ -3,6 +3,7 @@ import { CourseResourcesProps } from '@/types';
 import { ViewContainer } from './ui/view-container';
 import Link from 'next/link';
 import { buttonVariants } from './ui/button';
+import { ArrowUpRight } from 'lucide-react';
 
 const CourseResources = ({
   className,
@@ -22,7 +23,7 @@ const CourseResources = ({
             key={key}
             className={cn(buttonVariants({ variant: 'default', size: 'lg' }))}
           >
-            {resource.title}
+            {resource.title} <ArrowUpRight />
           </Link>
         ))}
       </ViewContainer>
