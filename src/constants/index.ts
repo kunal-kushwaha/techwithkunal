@@ -323,7 +323,11 @@ export const COURSES: CoursesInfo = [
       },
       {
         title: 'Deploying your app to production - 30 min',
-        points: [''],
+        points: [
+          'Deploy your project in a highly scalable environment.',
+          'Optimize for scalability and efficiency in deployment.',
+          'Ensure seamless integration with existing production environments.',
+        ],
       },
     ],
   },
