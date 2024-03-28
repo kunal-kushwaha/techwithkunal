@@ -52,7 +52,7 @@ export const NAV_LINKS: NavLinksType = {
   ],
 };
 
-export const NAV_LINKS_COURSE: NavLinksType = {
+export const NAV_LINKS_COURSES: NavLinksType = {
   links: [
     {
       name: 'About',
@@ -75,6 +75,32 @@ export const NAV_LINKS_COURSE: NavLinksType = {
       url: '#newsletter',
     },
   ],
+};
+
+export const NAV_LINKS_COURSE: NavLinksType = {
+  links: [
+    {
+      name: 'About',
+      url: '#about',
+    },
+    {
+      name: 'Resources',
+      url: '#resources',
+    },
+    {
+      name: 'Syllabus',
+      url: '#syllabus',
+    },
+    {
+      name: 'Blog',
+      url: '/blog',
+      openInNewPage: true,
+    },
+  ],
+  cta: {
+    name: 'Register',
+    url: '#register',
+  },
 };
 
 export const TESTIMONIALS_HOME: Testimonials = [

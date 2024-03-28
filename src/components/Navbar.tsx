@@ -5,7 +5,7 @@ import { usePathname } from 'next/navigation';
 import Image from 'next/image';
 import { logoType } from '@/assets';
 import Link from 'next/link';
-import { NAV_LINKS, NAV_LINKS_COURSE } from '@/constants';
+import { NAV_LINKS, NAV_LINKS_COURSE, NAV_LINKS_COURSES } from '@/constants';
 import { cn } from '@/lib/utils';
 import { NavLinksType, NavbarProps } from '@/types';
 import { ViewContainer } from './ui/view-container';
@@ -96,6 +96,12 @@ const Navbar = ({ className, ...props }: NavbarProps) => {
           {isOpen ? <Cross2Icon /> : <HamburgerMenuIcon />}
         </Button>
         {pathname === '/courses' ? (
+          <NavLinks
+            navLinks={NAV_LINKS_COURSES}
+            isOpen={isOpen}
+            setIsOpen={setIsOpen}
+          />
+        ) : /^\/courses\/.*/.test(pathname) ? (
           <NavLinks
             navLinks={NAV_LINKS_COURSE}
             isOpen={isOpen}
