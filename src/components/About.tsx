@@ -27,8 +27,8 @@ const About = ({ className, ...props }: AboutProps) => {
               rel="noreferrer noopener"
             >
               Civo
-            </Link>
-            , CNCF ambassador, GitHub star
+            </Link>{' '}
+            and CNCF ambassador.
           </p>
         </div>
         <div className="md:row-start-2 lg:row-start-auto md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">

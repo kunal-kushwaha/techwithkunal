@@ -203,11 +203,6 @@ export const FOOTER_LINKS: FooterLinks = [
         openInNewPage: true,
       },
       {
-        name: 'GitHub',
-        url: 'https://github.com/kunal-kushwaha',
-        openInNewPage: true,
-      },
-      {
         name: 'Instagram',
         url: 'https://www.instagram.com/kunalsig/',
         openInNewPage: true,
@@ -218,6 +213,11 @@ export const FOOTER_LINKS: FooterLinks = [
     name: 'Other',
     links: [
       {
+        name: 'GitHub',
+        url: 'https://github.com/kunal-kushwaha',
+        openInNewPage: true,
+      },
+      {
         name: 'Reddit',
         url: 'https://www.reddit.com/user/KunalsReddit/',
         openInNewPage: true,
@@ -225,11 +225,6 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         name: 'YouTube Hindi',
         url: 'https://www.youtube.com/@KunalHindi',
-        openInNewPage: true,
-      },
-      {
-        name: 'GitHub Stars',
-        url: 'https://stars.github.com/profiles/kunal-kushwaha/',
         openInNewPage: true,
       },
       {
