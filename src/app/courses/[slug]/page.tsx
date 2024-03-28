@@ -1,3 +1,4 @@
+import CourseHeader from '@/components/CourseHeader';
 import { COURSES } from '@/constants';
 
 const CoursePage = ({ params }: { params: { slug: string } }) => {
@@ -13,7 +14,15 @@ const CoursePage = ({ params }: { params: { slug: string } }) => {
     );
   }
 
-  return <div>{course.title}</div>;
+  return (
+    <div>
+      <CourseHeader
+        title={course.title}
+        introVideoLink={course.link}
+        description={course.description}
+      />
+    </div>
+  );
 };
 
 export default CoursePage;

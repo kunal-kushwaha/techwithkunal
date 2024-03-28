@@ -59,6 +59,12 @@ export interface SocialProofProps extends GeneralComponent {}
 
 export interface CoursesSponsorshipsProps extends GeneralComponent {}
 
+export interface CourseHeaderProps extends GeneralComponent {
+  title: string;
+  description: string;
+  introVideoLink: string;
+}
+
 type Testimonial = {
   text: string;
   author: {
