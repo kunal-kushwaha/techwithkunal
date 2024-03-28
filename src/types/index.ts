@@ -73,6 +73,15 @@ export interface CourseAboutProps extends GeneralComponent {
   about: string;
 }
 
+export interface CourseSyllabusCardProps extends GeneralComponent {
+  syllabus: CourseSyllabusPoint;
+  number: number;
+}
+
+export interface CourseSyllabusProps extends GeneralComponent {
+  syllabus: CourseSyllabusPoint[];
+}
+
 type Testimonial = {
   text: string;
   author: {
