@@ -339,7 +339,7 @@ export const COURSES: CoursesInfo = [
       'Get interview-ready with this course that has no prerequisites and is designed to make you an expert in solving easy to hard LeetCode problems with ease',
     slug: 'dsa',
     about:
-      "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
+      'Get interview-ready with this course that has no prerequisites and is designed to make you an expert in solving easy to hard LeetCode problems with ease. Master the thought process behind solving problems, and clear interviews of top tier companies......',
     image: courseDsa,
     introVideoEmbedLink:
       'https://www.youtube.com/embed/rZ41y93P2Qo?si=qOxeJ3kPTkYbER7g',
@@ -459,23 +459,23 @@ export const COURSES: CoursesInfo = [
     title: 'DevOps Bootcamp',
     hasPage: true,
     description:
-      'Without a doubt, DevOps engineer is the most in-demand role in the current market, especially with an increased number of high paying remote opportunities.',
+      'Learn about DevOps, starting from the basics, going in depth into every topic, mastering multiple in-demand tools, and become a DevOps engineer',
     slug: 'devops',
     about:
-      "Here is supposed to be a description about the course that's kinda big but idk how can i type such a big description. Let's see how this goes. ",
+      'Without a doubt, DevOps engineer is the most in-demand role in the current market, especially with an increased number of high paying remote opportunities.',
     image: courseDevops,
     introVideoEmbedLink:
       'https://www.youtube.com/embed/ZbG0c87wcM8?si=7YdqdBa9mq1J88w9',
     resources: [
       {
-        title: 'Resource title should be here',
+        title: 'Notes & Assignments',
         description: 'A little description about the resource should be here.',
-        url: '#',
+        url: 'https://github.com/kunal-kushwaha/DevOps-Bootcamp',
       },
       {
-        title: 'Another resources title here',
+        title: 'Playlist',
         description: 'and another description for the resource will be here',
-        url: '#',
+        url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
     ],
     syllabus: [
