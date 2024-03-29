@@ -240,6 +240,7 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         name: 'Home',
         url: '/',
+        openInNewPage: true,
       },
       {
         name: 'Blog',
@@ -249,6 +250,7 @@ export const FOOTER_LINKS: FooterLinks = [
       {
         name: 'Sponsorships',
         url: '#sponsorships',
+        openInNewPage: true,
       },
       {
         name: 'Courses',
