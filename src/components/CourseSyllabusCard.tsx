@@ -21,7 +21,7 @@ const CourseSyllabusCard = ({
       </h3>
       <ul className="list-disc space-y-2 md:space-y-3 mt-4 md:mt-6 text-gray-600 list-inside">
         {typeof syllabus.points == 'string' ? (
-          <li>{syllabus.points}</li>
+          <p>{syllabus.points}</p>
         ) : (
           syllabus.points.map((point, key) => <li key={key}>{point}</li>)
         )}
