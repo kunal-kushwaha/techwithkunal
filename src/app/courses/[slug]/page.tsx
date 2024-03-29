@@ -24,8 +24,8 @@ const CoursePage = ({ params }: { params: { slug: string } }) => {
         introVideoEmbedLink={course.introVideoEmbedLink}
         description={course.description}
       />
-      <CourseResources resources={course.resources} />
       <CourseAbout about={course.about} />
+      <CourseResources resources={course.resources} />
       <CourseSyllabus syllabus={course.syllabus} />
     </div>
   );
