@@ -10,10 +10,17 @@ const CourseAbout = ({ className, about, ...props }: CourseAboutProps) => {
       {...props}
     >
       <ViewContainer className="">
-        <h2 className="text-3xl font-semibold">About the course</h2>
-        <p className="text-gray-500 text-lg md:text-[20px] mt-3 md:mt-5 max-w-full md:max-w-[75%]">
-          {about}
-        </p>
+        <div className="text-center">
+          <p className="text-primary-700 font-semibold text-sm md:text-base">
+            About
+          </p>
+          <h2 className="text-3xl font-semibold mt-1 md:mt-2 lg:mt-3">
+            What you will learn
+          </h2>
+          <p className="text-gray-500 text-lg md:text-[20px] mt-3 md:mt-5 max-w-full md:max-w-[75%] mx-auto">
+            {about}
+          </p>
+        </div>
       </ViewContainer>
     </section>
   );
