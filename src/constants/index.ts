@@ -292,8 +292,7 @@ export const COURSES: CoursesInfo = [
     ],
     syllabus: [
       {
-        title:
-          'Intro to Gen AI and Retrieval Augmented Generation (RAG) - 30 min',
+        title: 'Intro to Gen AI and Retrieval Augmented Generation (RAG)',
         points: [
           'The most important part of AI - Data.',
           'Making AI apps that are data-aware.',
@@ -303,8 +302,7 @@ export const COURSES: CoursesInfo = [
         ],
       },
       {
-        title:
-          'Intro to Semantic Search, Vectors and Vector Databases - 45 min',
+        title: 'Intro to Semantic Search, Vectors and Vector Databases',
         points: [
           'What is semantic search and Vectors.',
           'What are vector indexes?',
@@ -314,7 +312,7 @@ export const COURSES: CoursesInfo = [
         ],
       },
       {
-        title: 'How to build a Gen AI app with RAG - 60 min',
+        title: 'How to build a Gen AI app with RAG',
         points: [
           'Intro to the RAG architecture and libraries - LangChain and LlamaIndex.',
           'Building the base layer - Intro to Notebooks and creating embeddings and storing them in a database.',
@@ -324,7 +322,7 @@ export const COURSES: CoursesInfo = [
         ],
       },
       {
-        title: 'Deploying your app to production - 30 min',
+        title: 'Deploying your app to production',
         points: [
           'Deploy your project in a highly scalable environment.',
           'Optimize for scalability and efficiency in deployment.',
@@ -340,7 +338,7 @@ export const COURSES: CoursesInfo = [
       'Get interview-ready with this course that has no prerequisites and is designed to make you an expert in solving easy to hard LeetCode problems with ease',
     slug: 'dsa',
     about:
-      'Get interview-ready with this course that has no prerequisites and is designed to make you an expert in solving easy to hard LeetCode problems with ease. Master the thought process behind solving problems, and clear interviews of top tier companies......',
+      'Get interview-ready with this course that has no prerequisites and is designed to make you an expert in solving easy to hard LeetCode problems with ease. Master the thought process behind solving problems, and clear interviews of top tier companies.',
     image: courseDsa,
     introVideoEmbedLink:
       'https://www.youtube.com/embed/rZ41y93P2Qo?si=qOxeJ3kPTkYbER7g',
