@@ -4,11 +4,11 @@ const nextConfig = {
     return [
       {
         source: '/blog',
-        destination: 'https://codewithkunal-blog.vercel.app/blog',
+        destination: 'https://techwithkunal-blog.vercel.app/blog',
       },
       {
         source: '/blog/:path*',
-        destination: 'https://codewithkunal-blog.vercel.app/blog/:path*',
+        destination: 'https://techwithkunal-blog.vercel.app/blog/:path*',
       },
     ];
   },
