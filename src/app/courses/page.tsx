@@ -1,10 +1,10 @@
-import CoursesCards from '@/components/CoursesCards';
+import { CoursesCards } from '@/components/CoursesPage';
 import SocialProof from '@/components/SocialProof';
 import FAQs from '@/components/FQAs';
 import { COURSES_FAQS, TESTIMONIALS_COURSES } from '@/constants';
 import Testimonials from '@/components/Testimonials';
 import Newsletter from '@/components/Newsletter';
-import CoursesSponsorships from '@/components/CoursesSponsorships';
+import { CoursesSponsorships } from '@/components/CoursesPage';
 
 const Courses = () => {
   return (

@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils';
 import { CourseAboutProps } from '@/types';
-import { ViewContainer } from './ui/view-container';
+import { ViewContainer } from '../ui/view-container';
 
 const CourseAbout = ({ className, about, ...props }: CourseAboutProps) => {
   return (

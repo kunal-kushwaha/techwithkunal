@@ -1,8 +1,8 @@
-import CourseAbout from '@/components/CourseAbout';
-import CourseHeader from '@/components/CourseHeader';
-import CourseRegister from '@/components/CourseRegister';
-import CourseResources from '@/components/CourseResources';
-import CourseSyllabus from '@/components/CourseSyllabus';
+import { CourseAbout } from '@/components/CoursesPage';
+import { CourseHeader } from '@/components/CoursesPage';
+import { CourseRegister } from '@/components/CoursesPage';
+import { CourseResources } from '@/components/CoursesPage';
+import { CourseSyllabus } from '@/components/CoursesPage';
 import { COURSES } from '@/constants';
 
 const CoursePage = ({ params }: { params: { slug: string } }) => {

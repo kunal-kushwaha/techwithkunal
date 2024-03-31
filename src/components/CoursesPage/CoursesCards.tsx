@@ -1,6 +1,6 @@
 import { COURSES } from '@/constants';
-import { ViewContainer } from './ui/view-container';
-import { Card, CardCta, CardDescription, CardImage, CardTitle } from './Card';
+import { ViewContainer } from '../ui/view-container';
+import { Card, CardCta, CardDescription, CardImage, CardTitle } from '../Card';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
 import { CoursesCardsProps } from '@/types';

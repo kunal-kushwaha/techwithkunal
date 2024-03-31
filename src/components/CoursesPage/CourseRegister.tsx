@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 
 import { CoruseRegisterProps } from '@/types';
-import { ViewContainer } from './ui/view-container';
+import { ViewContainer } from '../ui/view-container';
 import { cn } from '@/lib/utils';
 
 const CourseRegister = ({ className, slug, ...props }: CoruseRegisterProps) => {

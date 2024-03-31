@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils';
 import { CourseSyllabusCardProps } from '@/types';
-import { Icon } from './ui/icon';
+import { Icon } from '../ui/icon';
 
 const CourseSyllabusCard = ({
   className,

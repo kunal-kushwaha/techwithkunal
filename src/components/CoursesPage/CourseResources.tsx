@@ -1,8 +1,8 @@
 import { cn } from '@/lib/utils';
 import { CourseResourcesProps } from '@/types';
-import { ViewContainer } from './ui/view-container';
+import { ViewContainer } from '../ui/view-container';
 import Link from 'next/link';
-import { buttonVariants } from './ui/button';
+import { buttonVariants } from '../ui/button';
 import { ArrowUpRight } from 'lucide-react';
 
 const CourseResources = ({

@@ -1,9 +1,9 @@
 import { cn } from '@/lib/utils';
 import { CoursesSponsorshipsProps } from '@/types';
-import { ViewContainer } from './ui/view-container';
+import { ViewContainer } from '../ui/view-container';
 import Link from 'next/link';
 import { ArrowUpRight } from 'lucide-react';
-import { buttonVariants } from './ui/button';
+import { buttonVariants } from '../ui/button';
 
 const CoursesSponsorships = ({
   className,

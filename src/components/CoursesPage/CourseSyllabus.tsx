@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils';
 import { CourseSyllabusProps } from '@/types';
-import { ViewContainer } from './ui/view-container';
+import { ViewContainer } from '../ui/view-container';
 import CourseSyllabusCard from './CourseSyllabusCard';
 
 const CourseSyllabus = ({

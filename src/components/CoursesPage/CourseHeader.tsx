@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils';
 import { CourseHeaderProps } from '@/types';
-import { ViewContainer } from './ui/view-container';
+import { ViewContainer } from '../ui/view-container';
 
 const CourseHeader = ({
   className,
