@@ -17,19 +17,19 @@ const fontSerif = Source_Serif_4({
 export const metadata: Metadata = {
   title: 'Kunal Kushwaha',
   description:
-    'Kunal Kushwaha is a DevRel, DevOps engineer and a community builder..',
+    'Kunal is DevRel manager at Civo, CNCF Ambassador and a GitHub star.',
   metadataBase: new URL('https://techwithkunal.com'),
   openGraph: {
     title: 'Kunal Kushwaha',
     description:
-      'Kunal Kushwaha is a DevRel, DevOps engineer and a community builder..',
+      'Kunal is DevRel manager at Civo, CNCF Ambassador and a GitHub star.',
     url: 'https://techwithkunal.com',
     siteName: 'Kunal Kushwaha',
     images: {
       url: '/opengraph-image.png',
       width: 1920,
       height: 960,
-      alt: "The only nexjs starter kit you'll ever need.",
+      alt: 'Driving Innovation, Educating Minds, and Strengthening Developer Relations',
     },
   },
 };
