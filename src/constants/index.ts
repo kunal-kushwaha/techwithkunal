@@ -272,7 +272,7 @@ export const COURSES: CoursesInfo = [
     image: courseSinglestore,
     introVideoEmbedLink:
       'https://www.youtube.com/embed/rZ41y93P2Qo?si=qOxeJ3kPTkYbER7g',
-    slug: 'genai-singlestore',
+    slug: 'genai-rag-singlestore',
     resources: [
       {
         title: 'Playlist link',
