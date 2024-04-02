@@ -276,18 +276,18 @@ export const COURSES: CoursesInfo = [
     resources: [
       {
         title: 'Playlist link',
-        description: '',
-        url: '',
+        description: 'Access the course material here',
+        url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnrslTujkMYzx-GuVrpVpu5_',
       },
       {
         title: 'Sign up to SingleStore',
         description: '',
-        url: '',
+        url: 'https://msql.co/S2-intro-to-RAG',
       },
       {
         title: 'Code repository link',
-        description: '',
-        url: '',
+        description: 'Access lecture code, notes and assignments',
+        url: 'https://github.com/kunal-kushwaha/Intro-to-Gen-AI-and-RAG',
       },
     ],
     syllabus: [
@@ -345,12 +345,12 @@ export const COURSES: CoursesInfo = [
     resources: [
       {
         title: 'Playlist',
-        description: 'A little description about the resource should be here.',
+        description: 'Access the course material here',
         url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ',
       },
       {
         title: 'Notes & assignments',
-        description: 'and another description for the resource will be here',
+        description: 'Access lecture code, notes and assignments',
         url: 'https://github.com/kunal-kushwaha/DSA-Bootcamp-Java',
       },
     ],
@@ -467,14 +467,14 @@ export const COURSES: CoursesInfo = [
       'https://www.youtube.com/embed/ZbG0c87wcM8?si=7YdqdBa9mq1J88w9',
     resources: [
       {
-        title: 'Notes & Assignments',
-        description: 'A little description about the resource should be here.',
-        url: 'https://github.com/kunal-kushwaha/DevOps-Bootcamp',
+        title: 'Playlist',
+        description: 'Access the course material here',
+        url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
       },
       {
-        title: 'Playlist',
-        description: 'and another description for the resource will be here',
-        url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
+        title: 'Notes & Assignments',
+        description: 'Access lecture code, notes and assignments',
+        url: 'https://github.com/kunal-kushwaha/DevOps-Bootcamp',
       },
     ],
     syllabus: [
