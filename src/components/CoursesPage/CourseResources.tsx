@@ -25,7 +25,7 @@ const CourseResources = ({
         <p className="text-center text-gray-500 text-lg md:text-[20px] mt-3 md:mt-5 max-w-full md:max-w-[75%] mx-auto">
           Here are all the resources you need to excel in this course!
         </p>
-        <ul className="text-lg md:text-[20px] space-y-4 md:space-y-6 lg:space-y-8 mt-8 md:mt-10 lg:mt-12 list-disc list-inside w-full md:max-w-[75%] lg:max-w-[60%] mx-auto">
+        <ul className="text-lg md:text-[20px] space-y-4 md:space-y-6 lg:space-y-8 mt-8 md:mt-10 lg:mt-12 list-disc list-inside w-full md:max-w-[75%] mx-auto">
           {resources.map((resource, key) => (
             <li key={key}>
               <Link

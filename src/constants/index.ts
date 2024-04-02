@@ -281,7 +281,8 @@ export const COURSES: CoursesInfo = [
       },
       {
         title: 'Sign up to SingleStore',
-        description: '',
+        description:
+          'Sign up to SingleStore to learn in a production ready environment',
         url: 'https://msql.co/S2-intro-to-RAG',
       },
       {
@@ -347,6 +348,11 @@ export const COURSES: CoursesInfo = [
         title: 'Playlist',
         description: 'Access the course material here',
         url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ',
+      },
+      {
+        title: 'Sign up to Pieces',
+        description: 'Elevate your note taking journey with this AI tool',
+        url: 'https://pieces.app/?utm_source=kunal-kushwaha&utm_medium=referral&utm_campaign=kunal-partner-site',
       },
       {
         title: 'Notes & assignments',
@@ -470,6 +476,11 @@ export const COURSES: CoursesInfo = [
         title: 'Playlist',
         description: 'Access the course material here',
         url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak',
+      },
+      {
+        title: 'Sign up to Pieces',
+        description: 'Elevate your note taking journey with this AI tool',
+        url: 'https://pieces.app/?utm_source=kunal-kushwaha&utm_medium=referral&utm_campaign=kunal-partner-site',
       },
       {
         title: 'Notes & Assignments',
