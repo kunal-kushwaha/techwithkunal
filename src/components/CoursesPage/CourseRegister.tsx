@@ -31,7 +31,7 @@ const CourseRegister = ({ className, slug, ...props }: CoruseRegisterProps) => {
             Register
           </p>
           <h2 className="text-3xl font-semibold mt-1 md:mt-2 lg:mt-3">
-            Get enrolled in the course right away!
+            Enrol for free to never miss an update!
           </h2>
         </div>
         <div className="flex justify-center items-center py-8 md:py-9 lg:py-10">
