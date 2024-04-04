@@ -87,7 +87,7 @@ const Newsletter = ({ className, ...props }: NewsletterProps) => {
             Join the newsletter
           </h2>
           <p className="text-gray-500 text-lg md:text-[20px] mt-2 md:mt-3">
-            Sign up for the very best tutorials and the latest news.
+            Get the latest insights and updates straight to your inbox.
           </p>
         </div>
         <Form {...form}>
