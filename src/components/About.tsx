@@ -32,6 +32,8 @@ const About = ({ className, ...props }: AboutProps) => {
             <Link
               href="https://stars.github.com/profiles/kunal-kushwaha"
               className="underline hover:no-underline"
+              target="_blank"
+              rel="noreferrer noopener"
             >
               GitHub star
             </Link>
