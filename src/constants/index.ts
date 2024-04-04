@@ -271,7 +271,7 @@ export const COURSES: CoursesInfo = [
       "In this comprehensive course, you'll delve into the cutting-edge realm of Gen AI and Retrieval Augmented Generation (RAG), with a focus on leveraging SingleStore technology. Explore the fundamentals of AI, emphasizing the critical role of data, and uncover the intricacies of RAG technology. From understanding semantic search and vectors to mastering the construction of Gen AI applications using RAG architecture and SingleStore, this course equips you with the knowledge and tools necessary to navigate the forefront of AI innovation. By the course's end, you'll be proficient in deploying your creations to production, ready to make your mark in the ever-evolving landscape of artificial intelligence.",
     image: courseSinglestore,
     introVideoEmbedLink:
-      'https://www.youtube.com/embed/rZ41y93P2Qo?si=qOxeJ3kPTkYbER7g',
+      'https://www.youtube.com/embed/Qq2fCtzMbD8?si=LhY1ZzmeLsxSnbUt',
     slug: 'genai-rag-singlestore',
     resources: [
       {
