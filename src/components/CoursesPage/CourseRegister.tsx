@@ -13,9 +13,9 @@ const CourseRegister = ({ className, slug, ...props }: CoruseRegisterProps) => {
     const windowWidth = window.innerWidth;
 
     if (windowWidth < 400) {
-      setIFrameHeight(850);
+      setIFrameHeight(900);
     } else {
-      setIFrameHeight(650);
+      setIFrameHeight(700);
     }
   }, []);
 
