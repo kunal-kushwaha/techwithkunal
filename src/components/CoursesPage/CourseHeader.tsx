@@ -1,6 +1,9 @@
 import { cn } from '@/lib/utils';
 import { CourseHeaderProps } from '@/types';
 import { ViewContainer } from '../ui/view-container';
+import Link from 'next/link';
+import { ArrowDown } from 'lucide-react';
+import { buttonVariants } from '../ui/button';
 
 const CourseHeader = ({
   className,
@@ -19,6 +22,15 @@ const CourseHeader = ({
           <p className="text-base lg:text-lg text-gray-500 md:max-w-[72%] mt-4 md:mt-5 lg:mt-6">
             {description}
           </p>
+          <Link
+            href="#resources"
+            className={cn(
+              buttonVariants({ variant: 'default', size: 'lg' }),
+              'mt-6 md:mt-8'
+            )}
+          >
+            Resources <ArrowDown />
+          </Link>
         </div>
         <div>
           <iframe
