@@ -26,6 +26,7 @@ import testimonialSajjan from './testimonial_sajjan.jpg';
 import testimonialPrassana from './testimonial_prassana.jpg';
 import testimonialEkjot from './testimonials_ekjot.jpg';
 import testimonialRahul from './testimonial_rahul.jpg';
+import testimonialIrffan from './testimonial_irffan.jpg';
 import courseDsa from './course_dsa.jpg';
 import courseGit from './course_git.jpg';
 import courseDevops from './course_devops.jpg';
@@ -60,6 +61,7 @@ export {
   testimonialSiva,
   testimonialSajjan,
   testimonialAnuragh,
+  testimonialIrffan,
   courseDsa,
   courseGit,
   courseDevops,

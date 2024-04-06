@@ -5,6 +5,7 @@ import {
   courseSinglestore,
   testimonialAnuragh,
   testimonialEkjot,
+  testimonialIrffan,
   testimonialKubesphereAuthor,
   testimonialKubesphereCompany,
   testimonialPrassana,
@@ -158,6 +159,13 @@ export const TESTIMONIALS_COURSES: Testimonials = [
     author: {
       name: 'Ekjot Singh',
       image: testimonialEkjot,
+    },
+  },
+  {
+    text: 'Hii Kunal! Just wanted to thank you. In my freshman year you introduced me to open source and In my 2nd year i made it to GSoC with @RocketChat',
+    author: {
+      name: 'Irffan',
+      image: testimonialIrffan,
     },
   },
   {
