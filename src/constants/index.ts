@@ -268,10 +268,10 @@ export const COURSES: CoursesInfo = [
     description:
       "In this comprehensive course, you'll delve into the cutting-edge realm of Gen AI and Retrieval Augmented Generation (RAG), with a focus on leveraging SingleStore technology.",
     about:
-      "In this comprehensive course, you'll delve into the cutting-edge realm of Gen AI and Retrieval Augmented Generation (RAG), with a focus on leveraging SingleStore technology. Explore the fundamentals of AI, emphasizing the critical role of data, and uncover the intricacies of RAG technology. From understanding semantic search and vectors to mastering the construction of Gen AI applications using RAG architecture and SingleStore, this course equips you with the knowledge and tools necessary to navigate the forefront of AI innovation. By the course's end, you'll be proficient in deploying your creations to production, ready to make your mark in the ever-evolving landscape of artificial intelligence.",
+      "Explore the fundamentals of AI, emphasizing the critical role of data, and uncover the intricacies of RAG technology. From understanding semantic search and vectors to mastering the construction of Gen AI applications using RAG architecture and SingleStore, this course equips you with the knowledge and tools necessary to navigate the forefront of AI innovation. By the course's end, you'll be proficient in deploying your creations to production, ready to make your mark in the ever-evolving landscape of artificial intelligence.",
     image: courseSinglestore,
     introVideoEmbedLink:
-      'https://www.youtube.com/embed/Qq2fCtzMbD8?si=LhY1ZzmeLsxSnbUt',
+      'https://www.youtube.com/embed/_CgBmuZ99M8?si=7Dsx-BCN2htBmVOX',
     slug: 'genai-rag-singlestore',
     resources: [
       {
@@ -284,6 +284,11 @@ export const COURSES: CoursesInfo = [
         description:
           'Sign up to SingleStore to learn in a production ready environment',
         url: 'https://msql.co/S2-intro-to-RAG',
+      },
+      {
+        title: 'Sign up to Pieces',
+        description: 'Elevate your note taking journey with this AI tool',
+        url: 'https://pieces.app/?utm_source=kunal-kushwaha&utm_medium=referral&utm_campaign=kunal-partner-site',
       },
       {
         title: 'Code repository link',
