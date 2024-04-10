@@ -536,7 +536,7 @@ export const COURSES: CoursesInfo = [
     title: 'DevOps Bootcamp',
     hasPage: true,
     description:
-      'Learn about DevOps, starting from the basics, going in depth into every topic, mastering multiple in-demand tools, and become a DevOps engineer',
+      'Learn about DevOps, starting from the basics, going in depth into every topic, mastering multiple in-demand tools.',
     slug: 'devops',
     about:
       "In this course, you will gain hands-on experience with a wide range of DevOps tools, from basic to advanced, ensuring you're well-equipped for the industry. Engage in practical projects that solidify your learning and prepare you for real-world applications.",
