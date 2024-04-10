@@ -9,7 +9,18 @@ import testimonialTeleportCompany from './testimonial_teleport_company.svg';
 import testimonialStreamAuthor from './testimonial_stream_author.png';
 import testimonialStreamCompany from './testimonial_stream_company.svg';
 import testimonialKubesphereAuthor from './testimonial_kubesphere_author.png';
+import testimonialKubeshphereAuthor2 from './testimonial_kubesphere_author2.png';
 import testimonialKubesphereCompany from './testimonial_kubesphere_company.svg';
+import testimonialBootdevCompany from './testimonial_bootdev_company.png';
+import testimonialBootdevAuthor from './testimonial_bootdev_author.png';
+import testimonialKodecloudCompany from './testimonial_kodecloud_company.svg';
+import testimonialKodecloudAuthor from './testimonial_kodecloud_author.png';
+import testimonialKomodorCompany from './testimonial_komodor_company.svg';
+import testimonialKomodorAuthor from './testimonial_komodor_author.png';
+import testimonialSlashdataCompany from './testimonial_slashdata_company.svg';
+import testimonialSlashdataAuthor from './testimonial_slashdata_author.png';
+import testimonialWilcoCompany from './testimonial_wilco_company.png';
+import testimonialWilcoAuthor from './testimonial_wilco_author.png';
 import companyGoogle from './company_google.svg';
 import companyCisco from './company_cisco.svg';
 import companyRazorpay from './company_razorpay.svg';
@@ -45,6 +56,17 @@ export {
   testimonialRiseinCompany,
   testimonialKubesphereAuthor,
   testimonialKubesphereCompany,
+  testimonialKubeshphereAuthor2,
+  testimonialBootdevAuthor,
+  testimonialBootdevCompany,
+  testimonialKodecloudAuthor,
+  testimonialKodecloudCompany,
+  testimonialKomodorAuthor,
+  testimonialKomodorCompany,
+  testimonialSlashdataAuthor,
+  testimonialSlashdataCompany,
+  testimonialWilcoAuthor,
+  testimonialWilcoCompany,
   companyAdobe,
   companyClicklab,
   companyCisco,
