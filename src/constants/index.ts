@@ -539,7 +539,7 @@ export const COURSES: CoursesInfo = [
       'Learn about DevOps, starting from the basics, going in depth into every topic, mastering multiple in-demand tools, and become a DevOps engineer',
     slug: 'devops',
     about:
-      'Without a doubt, DevOps engineer is the most in-demand role in the current market, especially with an increased number of high paying remote opportunities.',
+      "In this course, you will gain hands-on experience with a wide range of DevOps tools, from basic to advanced, ensuring you're well-equipped for the industry. Engage in practical projects that solidify your learning and prepare you for real-world applications.",
     image: courseDevops,
     introVideoEmbedLink:
       'https://www.youtube.com/embed/ZbG0c87wcM8?si=7YdqdBa9mq1J88w9',
