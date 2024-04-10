@@ -4,8 +4,15 @@ import {
   courseGit,
   courseSinglestore,
   testimonialAnuragh,
+  testimonialBootdevAuthor,
+  testimonialBootdevCompany,
   testimonialEkjot,
   testimonialIrffan,
+  testimonialKodecloudAuthor,
+  testimonialKodecloudCompany,
+  testimonialKomodorAuthor,
+  testimonialKomodorCompany,
+  testimonialKubeshphereAuthor2,
   testimonialKubesphereAuthor,
   testimonialKubesphereCompany,
   testimonialPrassana,
@@ -14,10 +21,14 @@ import {
   testimonialRiseinCompany,
   testimonialSajjan,
   testimonialSiva,
+  testimonialSlashdataAuthor,
+  testimonialSlashdataCompany,
   testimonialStreamAuthor,
   testimonialStreamCompany,
   testimonialTeleportAuthor,
   testimonialTeleportCompany,
+  testimonialWilcoAuthor,
+  testimonialWilcoCompany,
 } from '@/assets';
 import {
   CoursesFaqs,
@@ -135,6 +146,54 @@ export const TESTIMONIALS_HOME: Testimonials = [
     author: {
       name: 'Ankit Raj',
       image: testimonialRiseinAuthor,
+    },
+  },
+  {
+    text: 'It was extremely successful. We got around 1700 signups through our campaigns. Thank you for everything, Kunal. You have a wonderful community.',
+    company: testimonialWilcoCompany,
+    author: {
+      name: 'Alexandra Macias',
+      image: testimonialWilcoAuthor,
+    },
+  },
+  {
+    text: 'Fantastic, looking forward to more. I think you&apos;re doing great, I&apos;d love to continue swinging by the channel whenever you feel it&apos;s appropriate. Boot.dev has a YouTube channel now, so I&apos;d love to have you on there as well.',
+    company: testimonialBootdevCompany,
+    author: {
+      name: 'Lane',
+      image: testimonialBootdevAuthor,
+    },
+  },
+  {
+    text: 'Very efficient, smooth communication and focused work. 15+ twitter followers and 30 + starts in two days!',
+    company: testimonialKubesphereCompany,
+    author: {
+      name: 'Calvin Yu',
+      image: testimonialKubeshphereAuthor2,
+    },
+  },
+  {
+    text: 'AMAZING!!! After every activity with Kunal my community grows by 100s and the same goes for GH stars!',
+    company: testimonialKomodorCompany,
+    author: {
+      name: 'Udi Hofesh',
+      image: testimonialKomodorAuthor,
+    },
+  },
+  {
+    text: 'Excellent! So there was a sudden spike in audience from YT redirected to our site after the collaboration and that was really good to see.',
+    company: testimonialKodecloudCompany,
+    author: {
+      name: 'Prabhjyot Kaur',
+      image: testimonialKodecloudAuthor,
+    },
+  },
+  {
+    text: 'The collab was smooth and very fruitful! We got 283 qualified responses for our survey!',
+    company: testimonialSlashdataCompany,
+    author: {
+      name: 'Nurpari Damirova',
+      image: testimonialSlashdataAuthor,
     },
   },
 ];
