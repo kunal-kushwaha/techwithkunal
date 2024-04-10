@@ -12,8 +12,12 @@ const CourseRegister = ({ className, slug, ...props }: CoruseRegisterProps) => {
   useEffect(() => {
     const windowWidth = window.innerWidth;
 
-    if (windowWidth < 400) {
+    if (windowWidth < 350) {
+      setIFrameHeight(1000);
+    } else if (windowWidth < 400) {
       setIFrameHeight(900);
+    } else if (windowWidth < 500) {
+      setIFrameHeight(800);
     } else {
       setIFrameHeight(700);
     }
