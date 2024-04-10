@@ -157,7 +157,7 @@ export const TESTIMONIALS_HOME: Testimonials = [
     },
   },
   {
-    text: 'Fantastic, looking forward to more. I think you&apos;re doing great, I&apos;d love to continue swinging by the channel whenever you feel it&apos;s appropriate. Boot.dev has a YouTube channel now, so I&apos;d love to have you on there as well.',
+    text: "Fantastic, looking forward to more. I think you&'re doing great, I&'d love to continue swinging by the channel whenever you feel it&'s appropriate. Boot.dev has a YouTube channel now, so I&'d love to have you on there as well.",
     company: testimonialBootdevCompany,
     author: {
       name: 'Lane',
