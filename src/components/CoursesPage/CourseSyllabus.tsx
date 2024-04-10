@@ -1,7 +1,12 @@
 import { cn } from '@/lib/utils';
 import { CourseSyllabusProps } from '@/types';
 import { ViewContainer } from '../ui/view-container';
-import CourseSyllabusCard from './CourseSyllabusCard';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from '@/components/ui/accordion';
 
 const CourseSyllabus = ({
   className,
@@ -28,11 +33,36 @@ const CourseSyllabus = ({
             standards.
           </p>
         </div>
-        <div className="mt-8 md:mt-10 lg:mt-12 grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-7 lg:gap-8">
-          {syllabus.map((point, key) => (
-            <CourseSyllabusCard syllabus={point} key={key} number={key + 1} />
-          ))}
-        </div>
+        {syllabus && (
+          <Accordion
+            type="single"
+            collapsible
+            className="mt-8 md:mt-10 lg:mt-12 w-full md:max-w-[80%] lg:max-w-[75%] mx-auto"
+          >
+            {syllabus.map((point, key) => (
+              <AccordionItem
+                value={point.title}
+                key={key}
+                className="bg-gray-50 border-gray-500 px-5 md:px-8 hover:bg-gray-100"
+              >
+                <AccordionTrigger className="text-base md:text-lg font-medium hover:no-underline text-left">
+                  {point.title}
+                </AccordionTrigger>
+                <AccordionContent>
+                  {typeof point.points == 'string' ? (
+                    <p>{point.points}</p>
+                  ) : (
+                    <ul className="list-disc list-inside space-y-1 mt-4 text-base">
+                      {point.points.map((item, key) => (
+                        <li key={key}>{item}</li>
+                      ))}
+                    </ul>
+                  )}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        )}
       </ViewContainer>
     </section>
   );

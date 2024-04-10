@@ -5,7 +5,6 @@ import CourseResources from './CourseResources';
 import CoursesCards from './CoursesCards';
 import CourseSyllabus from './CourseSyllabus';
 import CoursesSponsorships from './CoursesSponsorships';
-import CourseSyllabusCard from './CourseSyllabusCard';
 
 export {
   CourseAbout,
@@ -13,7 +12,6 @@ export {
   CourseRegister,
   CourseResources,
   CourseSyllabus,
-  CourseSyllabusCard,
   CoursesCards,
   CoursesSponsorships,
 };
