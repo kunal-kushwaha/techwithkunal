@@ -6,6 +6,7 @@ import { cn } from '@/lib/utils';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import { Toaster } from 'sonner';
+import { Analytics } from '@vercel/analytics/react';
 
 const fontSans = Inter({ subsets: ['latin'], variable: '--font-sans' });
 const fontSerif = Source_Serif_4({
@@ -63,6 +64,7 @@ export default function RootLayout({
           //</ThemeProvider>
         }
         <Toaster richColors />
+        <Analytics />
       </body>
     </html>
   );
