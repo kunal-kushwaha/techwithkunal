@@ -47,7 +47,7 @@ const CourseSyllabus = ({
                 </AccordionTrigger>
                 <AccordionContent>
                   {typeof point.points == 'string' ? (
-                    <p>{point.points}</p>
+                    <p className="text-base">{point.points}</p>
                   ) : (
                     <ul className="list-disc list-inside space-y-1 mt-4 text-base">
                       {point.points.map((item, key) => (
