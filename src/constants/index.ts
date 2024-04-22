@@ -362,24 +362,34 @@ export const COURSES: CoursesInfo = [
     syllabus: [
       {
         title: 'Eyes Everywhere: Mastering Cloud Monitoring',
-        points: [],
+        points: [
+          'This course covers strategies and tools for effective cloud infrastructure monitoring, ensuring visibility into performance, security, and resource utilization.',
+        ],
       },
       {
         title: 'Server Sentinel: Comprehensive Server Monitoring Guide',
-        points: [],
+        points: [
+          'Exploring server monitoring techniques, including hardware health checks, resource usage tracking, and proactive troubleshooting methods.',
+        ],
       },
       {
         title:
           'Optimize & Excel: Application Performance Monitoring Demystified',
-        points: [],
+        points: [
+          'Delving into monitoring application performance, from identifying bottlenecks to optimizing code and infrastructure for enhanced user experience.',
+        ],
       },
       {
         title: 'Crisis Averted: Incident Management Essentials',
-        points: [],
+        points: [
+          'Focuses on developing skills and protocols for efficiently managing and mitigating incidents, including communication strategies, incident response planning, and post-mortem analysis.',
+        ],
       },
       {
         title: 'Financial Fitness: Navigating FinOps for Cloud Cost Management',
-        points: [],
+        points: [
+          'Offers insights into FinOps practices for cloud environments, including cost optimization strategies, budgeting techniques, and leveraging cloud provider pricing models.',
+        ],
       },
     ],
   },
