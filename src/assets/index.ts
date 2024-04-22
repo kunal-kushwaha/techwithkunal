@@ -42,6 +42,7 @@ import courseDsa from './course_dsa.jpg';
 import courseGit from './course_git.jpg';
 import courseDevops from './course_devops.jpg';
 import courseSinglestore from './course_singlestore.jpg';
+import courseCloudMonitoring from './course_cloud_monitoring.jpg';
 
 export {
   logoType,
@@ -88,4 +89,5 @@ export {
   courseGit,
   courseDevops,
   courseSinglestore,
+  courseCloudMonitoring,
 };

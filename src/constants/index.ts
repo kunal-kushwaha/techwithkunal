@@ -1,4 +1,5 @@
 import {
+  courseCloudMonitoring,
   courseDevops,
   courseDsa,
   courseGit,
@@ -329,6 +330,59 @@ export const FOOTER_LINKS: FooterLinks = [
 ];
 
 export const COURSES: CoursesInfo = [
+  {
+    title:
+      'Introduction to Cloud Monitoring, Performance, and Incident Management',
+    hasPage: true,
+    description:
+      'Learn essential skills in cloud monitoring, performance optimization, and incident management to lay a solid foundation for your career in tech.',
+    about:
+      "In this course, you'll dive into the essentials of DevOps, exploring server monitoring with tools like Site24x7, optimizing application performance, mastering incident management protocols, and gaining insights into FinOps principles for efficient cloud cost management.",
+    image: courseCloudMonitoring,
+    introVideoEmbedLink:
+      'https://www.youtube.com/embed/4Mmf6hHrv3w?si=PnxNVQrA3kEmxDL7',
+    slug: 'monitoring-site24x7',
+    resources: [
+      {
+        title: 'Playlist link',
+        description: 'Access the course material here',
+        url: 'https://www.youtube.com/playlist?list=PL9gnSGHSqcnrL6F-_DM3Vxten8ja3MjjC',
+      },
+      {
+        title: 'Sign up to Site24x7',
+        description: 'All-in-one monitoring solution',
+        url: 'https://www.site24x7.com/?utm_source=WeMakeDevs&utm_medium=Youtube&utm_campaign=video',
+      },
+      {
+        title: 'Sign up to Pieces',
+        description: 'Elevate your note taking journey with this AI tool',
+        url: 'https://pieces.app/?utm_source=kunal-kushwaha&utm_medium=referral&utm_campaign=kunal-partner-site',
+      },
+    ],
+    syllabus: [
+      {
+        title: 'Eyes Everywhere: Mastering Cloud Monitoring',
+        points: [],
+      },
+      {
+        title: 'Server Sentinel: Comprehensive Server Monitoring Guide',
+        points: [],
+      },
+      {
+        title:
+          'Optimize & Excel: Application Performance Monitoring Demystified',
+        points: [],
+      },
+      {
+        title: 'Crisis Averted: Incident Management Essentials',
+        points: [],
+      },
+      {
+        title: 'Financial Fitness: Navigating FinOps for Cloud Cost Management',
+        points: [],
+      },
+    ],
+  },
   {
     title: 'Introduction to Gen AI and Retrieval Augmented Generation (RAG)',
     hasPage: true,
