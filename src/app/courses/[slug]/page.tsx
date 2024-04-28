@@ -4,6 +4,7 @@ import { CourseRegister } from '@/components/CoursesPage';
 import { CourseResources } from '@/components/CoursesPage';
 import { CourseSyllabus } from '@/components/CoursesPage';
 import { COURSES } from '@/constants';
+import Script from 'next/script';
 
 const CoursePage = ({ params }: { params: { slug: string } }) => {
   const course = COURSES.find((course) => course.slug == params.slug);
@@ -20,6 +21,23 @@ const CoursePage = ({ params }: { params: { slug: string } }) => {
 
   return (
     <div>
+      {params.slug == 'genai-rag-singlestore' && (
+        <>
+          <Script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-995442209"
+          ></Script>
+          <Script id="google-analytics">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+
+              gtag('config', 'AW-995442209');
+            `}
+          </Script>
+        </>
+      )}
       <CourseHeader
         title={course.title}
         introVideoEmbedLink={course.introVideoEmbedLink}
