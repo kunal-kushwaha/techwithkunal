@@ -445,7 +445,7 @@ export const COURSES: CoursesInfo = [
           'What are vector indexes?',
           'What is a contextual database?',
           'What to look for in a database?',
-          'SingleStore story and roadmap. A short hands on session',
+          'SingleStore story and roadmap.',
         ],
       },
       {
