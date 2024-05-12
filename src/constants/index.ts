@@ -340,7 +340,7 @@ export const COURSES: CoursesInfo = [
       "In this course, you'll dive into the essentials of DevOps, exploring server monitoring with tools like Site24x7, optimizing application performance, mastering incident management protocols, and gaining insights into FinOps principles for efficient cloud cost management.",
     image: courseCloudMonitoring,
     introVideoEmbedLink:
-      'https://www.youtube.com/embed/4Mmf6hHrv3w?si=PnxNVQrA3kEmxDL7',
+      'https://www.youtube.com/embed/ECg1RuQwD0I?si=hrUFK8_ddIPA_qVh',
     slug: 'monitoring-site24x7',
     resources: [
       {
