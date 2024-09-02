@@ -34,7 +34,7 @@ export default function Home() {
           </span>
         </HeaderTitle>
         <HeaderDescription>
-          Kunal Kushwaha works as a developer relations manager at{' '}
+          Kunal Kushwaha is a Developer Relations Manager at{' '}
           <Link
             href="https://www.civo.com"
             className="underline hover:no-underline"
@@ -43,10 +43,20 @@ export default function Home() {
           >
             Civo
           </Link>
-          , where he drives innovation in cloud-native technologies and has
-          educated thousands of developers. Renowned for his empathetic approach
-          and community leadership, he has been a speaker at global tech
-          conferences, embodying expertise and passion in every endeavor.
+          , where he fosters a deep connection between developers and innovative
+          cloud-native technologies. As the founder of{' '}
+          <Link
+            href="www.wemakedevs.org"
+            className="underline hover:no-underline"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            WeMakeDevs
+          </Link>
+          , Kunal has taught thousands online and consulted numerous companies
+          on their cloud journeys. Recognized as a community leader, he has
+          delivered keynote speeches at global conferences, embodying empathy in
+          all aspects of his work and life.
         </HeaderDescription>
         <HeaderCta>
           <Link
