@@ -19,7 +19,7 @@ const About = ({ className, ...props }: AboutProps) => {
           </Icon>
           <h2 className="text-3xl font-semibold mt-4 md:mt-6">About me.</h2>
           <p className="text-gray-500 text-lg md:text-[20px] mt-3 md:mt-5">
-            DevRel manager at{' '}
+            Field CTO at{' '}
             <Link
               href="https://www.civo.com/"
               className="underline hover:no-underline"
@@ -28,16 +28,16 @@ const About = ({ className, ...props }: AboutProps) => {
             >
               Civo
             </Link>
-            , CNCF ambassador and{' '}
+            . Founder of{' '}
             <Link
-              href="https://stars.github.com/profiles/kunal-kushwaha"
+              href="https://wemakedevs.org"
               className="underline hover:no-underline"
               target="_blank"
               rel="noreferrer noopener"
             >
-              GitHub star
+              WeMakeDevs
             </Link>
-            .
+            .<br />Building a better future through technology and innovation.
           </p>
         </div>
         <div className="md:row-start-2 lg:row-start-auto md:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">
