@@ -77,11 +77,11 @@ const Newsletter = ({ className, ...props }: NewsletterProps) => {
       id="newsletter"
       className={cn(
         className,
-        'py-10 md:py-16 lg:py-20 before:w-full before:h-1/2 relative z-0 before:-z-10 before:absolute before:bottom-0 before:left-0 before:bg-gray-800'
+        'py-10 md:py-16 lg:py-20 before:w-full before:h-1/2 relative z-0 bg-accent before:-z-10 before:absolute before:bottom-0 before:left-0 before:bg-gray-800'
       )}
       {...props}
     >
-      <ViewContainer className="flex justify-between p-10 md:p-12 lg:p-16 bg-gray-50 rounded-lg flex-col md:flex-row gap-8 lg:gap-10">
+      <ViewContainer className="flex justify-between p-10 md:p-12 lg:p-16 bg-white shadow-xl rounded-lg flex-col md:flex-row gap-8 lg:gap-10">
         <div className="grow">
           <h2 className="text-2xl md:text-[28px] font-semibold">
             Join the newsletter

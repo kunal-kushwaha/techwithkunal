@@ -19,45 +19,45 @@ export interface GeneralComponentWithChild extends GeneralComponent {
   children: React.ReactNode;
 }
 
-export interface NavbarProps extends GeneralComponent {}
+export interface NavbarProps extends GeneralComponent { }
 
-export interface HeaderProps extends GeneralComponentWithChild {}
+export interface HeaderProps extends GeneralComponentWithChild { }
 
-export interface HeaderTitleProps extends GeneralComponentWithChild {}
+export interface HeaderTitleProps extends GeneralComponentWithChild { }
 
-export interface HeaderDescriptionProps extends GeneralComponentWithChild {}
+export interface HeaderDescriptionProps extends GeneralComponentWithChild { }
 
-export interface HeaderCtaProps extends GeneralComponentWithChild {}
+export interface HeaderCtaProps extends GeneralComponentWithChild { }
 
 export interface HeaderImageProps extends GeneralComponent {
   src: StaticImageData;
   alt: string;
 }
 
-export interface AboutProps extends GeneralComponent {}
+export interface AboutProps extends GeneralComponent { }
 
-export interface CoursesProps extends GeneralComponent {}
+export interface CoursesProps extends GeneralComponent { }
 
-export interface SponsorshipsProps extends GeneralComponent {}
+export interface SponsorshipsProps extends GeneralComponent { }
 
-export interface CoursesCardsProps extends GeneralComponent {}
+export interface CoursesCardsProps extends GeneralComponent { }
 
-export interface CardProps extends GeneralComponentWithChild {}
+export interface CardProps extends GeneralComponentWithChild { }
 
-export interface CardTitleProps extends GeneralComponentWithChild {}
+export interface CardTitleProps extends GeneralComponentWithChild { }
 
-export interface CardDescriptionProps extends GeneralComponentWithChild {}
+export interface CardDescriptionProps extends GeneralComponentWithChild { }
 
-export interface CardCtaProps extends GeneralComponentWithChild {}
+export interface CardCtaProps extends GeneralComponentWithChild { }
 
 export interface CardImageProps extends GeneralComponent {
   src: StaticImageData;
   alt: string;
 }
 
-export interface SocialProofProps extends GeneralComponent {}
+export interface SocialProofProps extends GeneralComponent { }
 
-export interface CoursesSponsorshipsProps extends GeneralComponent {}
+export interface CoursesSponsorshipsProps extends GeneralComponent { }
 
 export interface CourseHeaderProps extends GeneralComponent {
   title: string;
@@ -103,7 +103,7 @@ export interface TestimonialsProps extends GeneralComponent {
   testimonials: Testimonials;
 }
 
-export interface FooterProps extends GeneralComponent {}
+export interface FooterProps extends GeneralComponent { }
 
 type SingleFooterLink = {
   name: string;
@@ -119,7 +119,7 @@ type FooterLinksSection = {
 
 export type FooterLinks = FooterLinksSection[];
 
-export interface NewsletterProps extends GeneralComponent {}
+export interface NewsletterProps extends GeneralComponent { }
 
 type CourseSyllabusPoint = {
   title: string;
@@ -159,3 +159,11 @@ type CourseInfo = {
 };
 
 export type CoursesInfo = CourseInfo[];
+
+export type PartnerData = {
+  image: StaticImageData;
+  logo: StaticImageData;
+  name: string;
+  quote: string;
+  author: string;
+}
