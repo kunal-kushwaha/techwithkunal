@@ -36,7 +36,7 @@ export default function Home() {
         <HeaderDescription>
           Field CTO at{' '}
           <Link
-            href="www.wemakedevs.org"
+            href="https://www.civo.com"
             className="underline hover:no-underline"
             target="_blank"
             rel="noreferrer noopener"
@@ -45,7 +45,7 @@ export default function Home() {
           </Link>
           . Founder of{' '}
           <Link
-            href="https://www.civo.com"
+            href="https://www.wemakedevs.org/"
             className="underline hover:no-underline"
             target="_blank"
             rel="noreferrer noopener"
