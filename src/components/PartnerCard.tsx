@@ -1,13 +1,13 @@
-import { cn } from "@/lib/utils";
-import { GeneralComponent } from "@/types";
-import Image, { StaticImageData } from "next/image";
+import { cn } from '@/lib/utils';
+import { GeneralComponent } from '@/types';
+import Image, { StaticImageData } from 'next/image';
 
 const PartnerCard = ({ className, children, ...props }: GeneralComponent) => {
   return (
     <div
       className={cn(
         className,
-        "rounded shadow-xl bg-white p-5 h-[380px] xl:h-[320px] max-w-[340px] md:max-w-none mx-auto"
+        'rounded shadow-xl bg-white p-5 h-[380px] xl:h-[320px] max-w-[340px] md:max-w-none mx-auto'
       )}
       {...props}
     >
@@ -22,7 +22,7 @@ const PartnerCardQuote = ({
   ...props
 }: GeneralComponent) => {
   return (
-    <p className={cn(className, "font-medium text-base md:text-lg")} {...props}>
+    <p className={cn(className, 'font-medium text-base md:text-lg')} {...props}>
       {children}
     </p>
   );
@@ -34,7 +34,7 @@ const PartnerCardAuthorName = ({
   ...props
 }: GeneralComponent) => {
   return (
-    <h3 className={cn(className, "")} {...props}>
+    <h3 className={cn(className, '')} {...props}>
       {children}
     </h3>
   );
@@ -50,7 +50,7 @@ const PartnerCardAuthorImage = ({
   img,
   title,
 }: PartnerCardAuthorImageInterface) => {
-  return <Image src={img} alt={title} className={cn("w-12", className)} />;
+  return <Image src={img} alt={title} className={cn('w-12', className)} />;
 };
 
 interface PartnerCardLogoInterface {
@@ -63,7 +63,7 @@ const PartnerCardLogo = ({
   img,
   title,
 }: PartnerCardLogoInterface) => {
-  return <Image src={img} alt={title} className={cn(className, "w-36")} />;
+  return <Image src={img} alt={title} className={cn(className, 'w-36')} />;
 };
 
 export {

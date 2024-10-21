@@ -12,7 +12,27 @@ import {
   testimonialSajjan,
   testimonialSiva,
 } from '@/assets';
-import { bootdevAuthor, bootdevLogo, kodecloudAuthor, kodecloudLogo, komodorAuthor, komodorLogo, kubesphereAuthor, kubesphereAuthor2, kubesphereLogo, riseinAuthor, riseinLogo, slashdataAuthor, slashdataLogo, streamAuthor, streamLogo, teleportAuthor, teleportLogo, wilcoAuthor, wilcoLogo } from '@/assets/testimonials/'
+import {
+  bootdevAuthor,
+  bootdevLogo,
+  kodecloudAuthor,
+  kodecloudLogo,
+  komodorAuthor,
+  komodorLogo,
+  kubesphereAuthor,
+  kubesphereAuthor2,
+  kubesphereLogo,
+  riseinAuthor,
+  riseinLogo,
+  slashdataAuthor,
+  slashdataLogo,
+  streamAuthor,
+  streamLogo,
+  teleportAuthor,
+  teleportLogo,
+  wilcoAuthor,
+  wilcoLogo,
+} from '@/assets/testimonials/';
 import {
   CoursesFaqs,
   CoursesInfo,
