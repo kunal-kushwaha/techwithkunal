@@ -159,3 +159,11 @@ type CourseInfo = {
 };
 
 export type CoursesInfo = CourseInfo[];
+
+export type PartnerData = {
+  image: StaticImageData;
+  logo: StaticImageData;
+  name: string;
+  quote: string;
+  author: string;
+};

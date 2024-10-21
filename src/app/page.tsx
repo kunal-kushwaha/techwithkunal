@@ -9,10 +9,11 @@ import {
   HeaderImage,
 } from '@/components/Header';
 import Newsletter from '@/components/Newsletter';
+import Partners from '@/components/Partners';
 import Sponsorships from '@/components/Sponsorships';
-import Testimonials from '@/components/Testimonials';
+// import Testimonials from '@/components/Testimonials';
 import { buttonVariants } from '@/components/ui/button';
-import { TESTIMONIALS_HOME } from '@/constants';
+// import { TESTIMONIALS_HOME } from '@/constants';
 import { cn } from '@/lib/utils';
 import { ArrowDown } from 'lucide-react';
 import Image from 'next/image';
@@ -75,7 +76,8 @@ export default function Home() {
       <About />
       <Courses />
       <Sponsorships />
-      <Testimonials testimonials={TESTIMONIALS_HOME} />
+      <Partners />
+      {/* <Testimonials testimonials={TESTIMONIALS_HOME} /> */}
       <Newsletter />
     </div>
   );
