@@ -24,15 +24,16 @@ export default function Home() {
     <div>
       <Header>
         <HeaderTitle>
-          Driving Innovation, Educating Minds, and Strengthening{' '}
+          Building a better future through{' '}
           <span className="relative -z-10">
-            Developer Relations
+            technology and innovation
             <Image
               src={headerUnderline}
               alt="Header underline"
-              className="absolute -bottom-1 lg:bottom-0 lg:w-4/5 left-0 lg:left-14 -z-20"
+              className="absolute -bottom-1 lg:-bottom-4 lg:w-full left-0 lg:left-0 -z-20"
             />
           </span>
+          .
         </HeaderTitle>
         <HeaderDescription>
           Field CTO at{' '}
@@ -53,9 +54,7 @@ export default function Home() {
           >
             WeMakeDevs
           </Link>
-          .
-          <br />
-          Building a better future through technology and innovation.
+          . CNCF Ambassador. GitHub Star.
         </HeaderDescription>
         <HeaderCta>
           <Link
