@@ -53,7 +53,7 @@ const Footer = ({ className, ...props }: FooterProps) => {
         </div>
         <div className="border-t border-gray-600 pt-8 mt-12">
           <p className="text-gray-400 text-center">
-            © 2024 Kunal Kushwaha. All rights reserved.
+            © 2025 Kunal Kushwaha. All rights reserved.
           </p>
         </div>
       </ViewContainer>
