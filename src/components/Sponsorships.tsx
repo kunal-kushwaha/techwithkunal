@@ -28,7 +28,7 @@ const Sponsorships = ({ className, ...props }: SponsorshipsProps) => {
             developer community.
           </p>
           <Link
-            href="mailto:contact@techwithkunal.com"
+            href="https://forms.gle/9CFQwxwZPu3wKVLDA"
             className={cn(
               buttonVariants({ variant: 'default', size: 'lg' }),
               'mt-8 md:mt-9 lg:mt-10'
@@ -46,7 +46,7 @@ const Sponsorships = ({ className, ...props }: SponsorshipsProps) => {
               Dynamic content creation
             </h3>
             <p className="text-gray-500 text-base mt-2">
-              Leveraging my 600,000 YouTube subscribers, I create engaging video
+              Leveraging my 700,000+ YouTube subscribers, I create engaging video
               content and write insightful blog posts, including newsletters.
               These platforms are perfect for educating the community about your
               projects and initiatives.
