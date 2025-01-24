@@ -29,6 +29,8 @@ const Sponsorships = ({ className, ...props }: SponsorshipsProps) => {
           </p>
           <Link
             href="https://forms.gle/9CFQwxwZPu3wKVLDA"
+            target="_blank"
+            rel="noreferrer noopener"
             className={cn(
               buttonVariants({ variant: 'default', size: 'lg' }),
               'mt-8 md:mt-9 lg:mt-10'
