@@ -36,7 +36,7 @@ export default function Home() {
           .
         </HeaderTitle>
         <HeaderDescription>
-          Field CTO at{' '}
+          I&apos;m Kunal Kushwaha, Field CTO at{' '}
           <Link
             href="https://www.civo.com"
             className="underline hover:no-underline"
@@ -45,16 +45,21 @@ export default function Home() {
           >
             Civo
           </Link>
-          . Founder of{' '}
+          , where I focus on cloud-native technologies and AI, helping companies
+          modernize their infrastructure and adopt innovative solutions.
+          I&lsquo;m also the founder of{' '}
           <Link
-            href="https://www.wemakedevs.org/"
+            href="https://www.wemakedevs.org"
             className="underline hover:no-underline"
             target="_blank"
-            rel="noreferrer noopener"
+            rel="nnoreferrer noopener"
           >
             WeMakeDevs
           </Link>
-          . CNCF Ambassador. GitHub Star.
+          , a community initiative through which I mentor individuals in tech,
+          share practical career advice, and create educational content on
+          YouTube. I&apos;m passionate about open source regularly speak at
+          conferences on cloud, AI, and developer growth.
         </HeaderDescription>
         <HeaderCta>
           <Link
