@@ -57,8 +57,16 @@ export default function Home() {
             WeMakeDevs
           </Link>
           , a community initiative through which I mentor individuals in tech,
-          share practical career advice, and create educational content on
-          YouTube. I&apos;m passionate about open source regularly speak at
+          share practical career advice, and create educational content on{' '}
+          <Link
+            href="https://www.youtube.com/@KunalKushwaha"
+            className="underline hover:no-underline"
+            target="_blank"
+            rel="nnoreferrer noopener"
+          >
+            YouTube
+          </Link>
+          . I&apos;m passionate about open source and regularly speak at
           conferences on cloud, AI, and developer growth.
         </HeaderDescription>
         <HeaderCta>
