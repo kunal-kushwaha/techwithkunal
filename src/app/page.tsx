@@ -1,4 +1,4 @@
-import { headerImage, headerUnderline } from "@/assets";
+import { header, headerUnderline } from "@/assets";
 import About from "@/components/About";
 import Courses from "@/components/Courses";
 import {
@@ -25,18 +25,27 @@ export default function Home() {
 			<Header>
 				<HeaderTitle>
 					Building a better future through{" "}
-					<span className="relative -z-10">
-						technology and innovation
+					<span className="relative inline-block">
+						technology
 						<Image
 							src={headerUnderline}
 							alt="Header underline"
-							className="absolute -bottom-1 lg:-bottom-4 lg:w-full left-0 lg:left-0 -z-20"
+							className="absolute -bottom-1 md:-bottom-2 lg:-bottom-3 left-0 w-full"
+						/>
+					</span>{" "}
+					and{" "}
+					<span className="relative inline-block">
+						innovation
+						<Image
+							src={headerUnderline}
+							alt="Header underline"
+							className="absolute -bottom-1 md:-bottom-2 lg:-bottom-3 left-0 w-full scale-x-[-1] opacity-80"
 						/>
 					</span>
 					.
 				</HeaderTitle>
 				<HeaderDescription>
-					I&apos;m Kunal Kushwaha, Field CTO at{" "}
+					Kunal Kushwaha is the Field CTO at{" "}
 					<Link
 						href="https://www.civo.com"
 						className="underline hover:no-underline"
@@ -45,30 +54,30 @@ export default function Home() {
 					>
 						Civo
 					</Link>
-					, where I focus on cloud-native technologies and AI, helping
-					companies modernize their infrastructure and adopt
-					innovative solutions. I&lsquo;m also the founder of{" "}
+					, where he focuses on cloud-native technologies and AI,
+					helping companies modernize their infrastructure and adopt
+					innovative solutions. He is also the founder of{" "}
 					<Link
 						href="https://www.wemakedevs.org"
 						className="underline hover:no-underline"
 						target="_blank"
-						rel="nnoreferrer noopener"
+						rel="noreferrer noopener"
 					>
 						WeMakeDevs
 					</Link>
-					, a community initiative through which I mentor individuals
-					in tech, share practical career advice, and create
-					educational content on{" "}
+					, a community initiative where he mentors individuals in
+					tech. His educational content on{" "}
 					<Link
 						href="https://www.youtube.com/@KunalKushwaha"
 						className="underline hover:no-underline"
 						target="_blank"
-						rel="nnoreferrer noopener"
+						rel="noreferrer noopener"
 					>
 						YouTube
-					</Link>
-					. I&apos;m passionate about open source and regularly speak
-					at conferences on cloud, AI, and developer growth.
+					</Link>{" "}
+					has been watched by millions. A passionate advocate for open
+					source, Kunal regularly speaks at industry conferences on
+					cloud, AI, and developer growth.
 				</HeaderDescription>
 				<HeaderCta>
 					<Link
@@ -88,7 +97,7 @@ export default function Home() {
 						Get in touch
 					</Link>
 				</HeaderCta>
-				<HeaderImage src={headerImage} alt="Kunal Kushwaha" />
+				<HeaderImage src={header} alt="Kunal Kushwaha" />
 			</Header>
 			<About />
 			<Courses />

@@ -22,12 +22,11 @@ const Courses = ({ className, ...props }: CoursesProps) => {
 						Teaching developers to upskill themselves.
 					</h2>
 					<p className="text-gray-500 text-lg md:text-[20px] mt-3 md:mt-5 max-w-full md:max-w-[75%] mx-auto">
-						Step into a world of learning with my comprehensive
-						courses, designed for developers at all levels. I guide
-						you through the intricacies of Machine Learning, the
-						practical applications of DevOps, and mastery of the
-						latest development technologies and complex
-						infrastructures.
+						Join me as we break down the essentials of AI, DevOps,
+						and modern development tools. Whether you're just
+						starting out or looking to level up, these courses are
+						built to help you navigate real-world tech challenges
+						with confidence.
 					</p>
 				</div>
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10 lg:gap-14 mt-10 md:mt-12 lg:mt-16">

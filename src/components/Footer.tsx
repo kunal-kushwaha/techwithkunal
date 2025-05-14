@@ -17,11 +17,19 @@ const Footer = ({ className, ...props }: FooterProps) => {
 		>
 			<ViewContainer className="">
 				<div className="flex justify-between items-start gap-20 md:10 flex-col md:flex-row">
-					<Image
-						src={logoTypeLight}
-						alt="Kunal Kushwaha"
-						className="w-40 md:48 lg:w-52"
-					/>
+					<div className="">
+						<Image
+							src={logoTypeLight}
+							alt="Kunal Kushwaha"
+							className="w-40 md:48 lg:w-52"
+						/>
+						<Link
+							href="mailto:contact@techwithkunal.com"
+							className="text-gray-400 mt-4 block"
+						>
+							contact@techwithkunal.com
+						</Link>
+					</div>
 					<div className="grid gap-5 grid-cols-2 md:grid-cols-3 w-full md:w-[70%] lg:w-[60%]">
 						{FOOTER_LINKS.map((section, key) => (
 							// biome-ignore lint/suspicious/noArrayIndexKey: <explanation>

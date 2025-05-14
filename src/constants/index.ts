@@ -293,13 +293,18 @@ export const FOOTER_LINKS: FooterLinks = [
 				openInNewPage: true,
 			},
 			{
-				name: "YouTube Hindi",
-				url: "https://www.youtube.com/@KunalHindi",
+				name: "Credly",
+				url: "https://www.credly.com/users/kunalkushwaha/badges",
 				openInNewPage: true,
 			},
 			{
-				name: "Credly",
-				url: "https://www.credly.com/users/kunalkushwaha/badges",
+				name: "Bluesky",
+				url: "https://bsky.app/profile/techwithkunal.com",
+				openInNewPage: true,
+			},
+			{
+				name: "TikTok",
+				url: "https://www.tiktok.com/@kunalstt",
 				openInNewPage: true,
 			},
 		],
@@ -314,7 +319,7 @@ export const FOOTER_LINKS: FooterLinks = [
 			},
 			{
 				name: "Blog",
-				url: "/blog",
+				url: "https://techwithkunal.substack.com/",
 				openInNewPage: true,
 			},
 			{

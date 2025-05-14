@@ -13,6 +13,7 @@ import courseDevops from "./course_devops.jpg";
 import courseDsa from "./course_dsa.jpg";
 import courseGit from "./course_git.jpg";
 import courseSinglestore from "./course_singlestore.jpg";
+import header from "./header.jpg";
 import headerImage from "./header_image.webp";
 import headerUnderline from "./header_underline.svg";
 import logoType from "./logo_type.svg";
@@ -30,6 +31,7 @@ export {
 	logoTypeLight,
 	headerUnderline,
 	headerImage,
+	header,
 	companyAdobe,
 	companyClicklab,
 	companyCisco,

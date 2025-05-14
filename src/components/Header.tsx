@@ -11,8 +11,12 @@ import { ViewContainer } from "./ui/view-container";
 
 const Header = ({ className, children, ...props }: HeaderProps) => {
 	return (
-		<header className={cn(className, "py-12 lg:py-20")} {...props}>
-			<ViewContainer className="">{children}</ViewContainer>
+		<header className={cn(className, "py-6 md:py-12 lg:py-20")} {...props}>
+			<ViewContainer className="relative lg:pr-[450px]">
+				<div className="lg:min-h-[400px] flex flex-col lg:block">
+					{children}
+				</div>
+			</ViewContainer>
 		</header>
 	);
 };
@@ -22,7 +26,7 @@ const HeaderTitle = ({ className, children, ...props }: HeaderTitleProps) => {
 		<h1
 			className={cn(
 				className,
-				"max-[360px]:text-[27px] text-[31px] leading-tight md:text-[46px] lg:text-[54px] lg:leading-tight font-medium lg:max-w-[90%]",
+				"max-[360px]:text-[27px] text-[31px] leading-tight md:text-[46px] lg:text-[54px] lg:leading-tight font-semibold",
 			)}
 			{...props}
 		>
@@ -40,7 +44,7 @@ const HeaderDescription = ({
 		<p
 			className={cn(
 				className,
-				"text-base lg:text-lg text-gray-500 md:max-w-[72%] mt-4 md:mt-5 lg:mt-6",
+				"text-base lg:text-lg text-gray-500 mt-4 md:mt-5 lg:mt-6",
 			)}
 			{...props}
 		>
@@ -68,9 +72,11 @@ const HeaderImage = ({ className, src, alt, ...props }: HeaderImageProps) => {
 		<Image
 			src={src}
 			alt={alt}
+			width={500}
+			height={500}
 			className={cn(
 				className,
-				"mt-10 lg:mt-16 min-h-64 object-cover rounded-md",
+				"mt-6 lg:mt-0 mb-8 lg:mb-0 rounded-full object-cover aspect-square w-[250px] h-[250px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] mx-auto lg:mx-0 lg:absolute lg:right-0 lg:top-0 shadow-2xl shadow-black/10 hover:shadow-3xl hover:shadow-black/20 transition-shadow duration-300 order-first lg:order-none",
 			)}
 			{...props}
 		/>
