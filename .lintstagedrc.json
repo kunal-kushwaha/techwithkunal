@@ -1,5 +1,0 @@
-{
-  "**/*.ts?(x)": ["prettier --write", "eslint"],
-  "**/*.(ts)?(x)": "bun run type-check",
-  "./*.md": ["prettier --write"]
-}
