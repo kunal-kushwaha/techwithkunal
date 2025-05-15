@@ -277,6 +277,16 @@ export const FOOTER_LINKS: FooterLinks = [
 				url: "https://www.instagram.com/kunalsig/",
 				openInNewPage: true,
 			},
+			{
+				name: "Bluesky",
+				url: "https://bsky.app/profile/techwithkunal.com",
+				openInNewPage: true,
+			},
+			{
+				name: "TikTok",
+				url: "https://www.tiktok.com/@kunalstt",
+				openInNewPage: true,
+			},
 		],
 	},
 	{
@@ -298,13 +308,8 @@ export const FOOTER_LINKS: FooterLinks = [
 				openInNewPage: true,
 			},
 			{
-				name: "Bluesky",
-				url: "https://bsky.app/profile/techwithkunal.com",
-				openInNewPage: true,
-			},
-			{
-				name: "TikTok",
-				url: "https://www.tiktok.com/@kunalstt",
+				name: "YouTube Hindi",
+				url: "https://www.youtube.com/@KunalHindi",
 				openInNewPage: true,
 			},
 		],
