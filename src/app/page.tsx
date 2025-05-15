@@ -24,23 +24,23 @@ export default function Home() {
 		<div>
 			<Header>
 				<HeaderTitle>
-					Building a better future through{" "}
+					Teaching millions how to{" "}
 					<span className="relative inline-block">
-						technology
-						<Image
+						code
+						{/* <Image
 							src={headerUnderline}
 							alt="Header underline"
 							className="absolute -bottom-1 md:-bottom-2 lg:-bottom-3 left-0 w-full"
-						/>
+						/> */}
 					</span>{" "}
-					and{" "}
+					and helping businesses{" "}
 					<span className="relative inline-block">
-						innovation
-						<Image
+						scale
+						{/* <Image
 							src={headerUnderline}
 							alt="Header underline"
 							className="absolute -bottom-1 md:-bottom-2 lg:-bottom-3 left-0 w-full scale-x-[-1] opacity-80"
-						/>
+						/> */}
 					</span>
 					.
 				</HeaderTitle>

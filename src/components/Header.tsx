@@ -26,7 +26,7 @@ const HeaderTitle = ({ className, children, ...props }: HeaderTitleProps) => {
 		<h1
 			className={cn(
 				className,
-				"max-[360px]:text-[27px] text-[31px] leading-tight md:text-[46px] lg:text-[54px] lg:leading-tight font-semibold",
+				"max-[360px]:text-[27px] text-[31px] leading-tight md:text-[46px] lg:text-[54px] xl:text-[60px] lg:leading-tight font-semibold tracking-tight lg:max-w-[650px]",
 			)}
 			{...props}
 		>
