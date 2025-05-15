@@ -56,11 +56,6 @@ export const NAV_LINKS: NavLinksType = {
 			url: "#sponsorships",
 		},
 		{
-			name: "Blog",
-			url: "/blog",
-			openInNewPage: true,
-		},
-		{
 			name: "Newsletter",
 			url: "#newsletter",
 		},
@@ -105,11 +100,6 @@ export const NAV_LINKS_COURSE: NavLinksType = {
 		{
 			name: "Syllabus",
 			url: "#syllabus",
-		},
-		{
-			name: "Blog",
-			url: "/blog",
-			openInNewPage: true,
 		},
 	],
 	cta: {
