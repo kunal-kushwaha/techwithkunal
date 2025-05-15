@@ -56,6 +56,11 @@ export const NAV_LINKS: NavLinksType = {
 			url: "#sponsorships",
 		},
 		{
+			name: "Podcast",
+			url: "http://podcast.techwithkunal.com/",
+			openInNewPage: true,
+		},
+		{
 			name: "Newsletter",
 			url: "#newsletter",
 		},
@@ -100,6 +105,11 @@ export const NAV_LINKS_COURSE: NavLinksType = {
 		{
 			name: "Syllabus",
 			url: "#syllabus",
+		},
+		{
+			name: "Podcast",
+			url: "http://podcast.techwithkunal.com/",
+			openInNewPage: true,
 		},
 	],
 	cta: {
