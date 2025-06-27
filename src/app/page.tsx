@@ -88,14 +88,14 @@ export default function Home() {
 					>
 						<ArrowDown /> Know more
 					</Link>
-					<Link
+					<a
 						href="mailto:contact@techwithkunal.com"
 						className={cn(
 							buttonVariants({ variant: "default", size: "lg" }),
 						)}
 					>
 						Get in touch
-					</Link>
+					</a>
 				</HeaderCta>
 				<HeaderImage src={header} alt="Kunal Kushwaha" />
 			</Header>
