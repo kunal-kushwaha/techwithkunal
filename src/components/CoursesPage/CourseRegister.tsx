@@ -6,7 +6,11 @@ import { cn } from "@/lib/utils";
 import type { CoruseRegisterProps } from "@/types";
 import { ViewContainer } from "../ui/view-container";
 
-const CourseRegister = ({ className, ...props }: CoruseRegisterProps) => {
+const CourseRegister = ({
+	className,
+	title,
+	...props
+}: CoruseRegisterProps) => {
 	const [iFrameHeight, setIFrameHeight] = useState(650);
 
 	useEffect(() => {
@@ -35,7 +39,7 @@ const CourseRegister = ({ className, ...props }: CoruseRegisterProps) => {
 						Register
 					</p>
 					<h2 className="text-3xl font-semibold mt-1 md:mt-2 lg:mt-3">
-						Enrol for free to never miss an update!
+						{title ?? "Enrol for free to never miss an update!"}
 					</h2>
 				</div>
 				<div className="flex justify-center items-center py-8 md:py-9 lg:py-10">

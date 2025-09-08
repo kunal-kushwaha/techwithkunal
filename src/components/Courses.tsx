@@ -91,7 +91,10 @@ const Courses = ({ className, ...props }: CoursesProps) => {
 					</Link>
 				</ViewContainer>
 			</section>
-			{/* <CourseRegister /> */}
+			<CourseRegister
+				title="Stay updated about my courses"
+				className="py-10 md:py-10 lg:py-10"
+			/>
 		</>
 	);
 };
