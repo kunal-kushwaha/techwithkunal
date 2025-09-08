@@ -40,7 +40,9 @@ const CourseRegister = ({ className, slug, ...props }: CoruseRegisterProps) => {
 				</div>
 				<div className="flex justify-center items-center py-8 md:py-9 lg:py-10">
 					<iframe
-						src={`https://techwithkunal-register.vercel.app/${slug}.html`}
+						src={
+							"https://techwithkunal-register.vercel.app/main.html"
+						}
 						width="100%"
 						scrolling="no"
 						className="border-none overflow-hidden"
