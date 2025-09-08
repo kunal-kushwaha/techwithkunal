@@ -1,5 +1,6 @@
 import { CoursesCards } from "@/components/CoursesPage";
 import { CoursesSponsorships } from "@/components/CoursesPage";
+import { CourseRegister } from "@/components/CoursesPage";
 import FAQs from "@/components/FQAs";
 import Newsletter from "@/components/Newsletter";
 import SocialProof from "@/components/SocialProof";
@@ -16,6 +17,7 @@ const Courses = () => {
 			/>
 			<SocialProof />
 			<CoursesCards className="bg-gray-50" />
+			<CourseRegister className="bg-white py-10" />
 			<FAQs
 				title="Frequently asked questions"
 				description="Find solutions to common queries"

@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 import type { CoruseRegisterProps } from "@/types";
 import { ViewContainer } from "../ui/view-container";
 
-const CourseRegister = ({ className, slug, ...props }: CoruseRegisterProps) => {
+const CourseRegister = ({ className, ...props }: CoruseRegisterProps) => {
 	const [iFrameHeight, setIFrameHeight] = useState(650);
 
 	useEffect(() => {
@@ -26,7 +26,7 @@ const CourseRegister = ({ className, slug, ...props }: CoruseRegisterProps) => {
 	return (
 		<section
 			id="register"
-			className={cn(className, "py-16 md:py-20 lg:py-24 bg-gray-50")}
+			className={cn("py-16 md:py-20 lg:py-24 bg-gray-50", className)}
 			{...props}
 		>
 			<ViewContainer>

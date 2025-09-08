@@ -82,9 +82,7 @@ export interface CourseSyllabusProps extends GeneralComponent {
 	syllabus: CourseSyllabusPoint[];
 }
 
-export interface CoruseRegisterProps extends GeneralComponent {
-	slug: string;
-}
+export interface CoruseRegisterProps extends GeneralComponent {}
 
 type Testimonial = {
 	text: string;
