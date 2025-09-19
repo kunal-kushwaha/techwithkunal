@@ -45,17 +45,18 @@ export default function Home() {
 					.
 				</HeaderTitle>
 				<HeaderDescription>
-					Kunal Kushwaha is the Field CTO at{" "}
+					Kunal Kushwaha is a Senior Developer Advocate at{" "}
 					<Link
-						href="https://www.civo.com"
+						href="https://cast.ai/"
 						className="underline hover:no-underline"
 						target="_blank"
 						rel="noreferrer noopener"
 					>
-						Civo
+						CAST AI
 					</Link>
-					, where he focuses on cloud-native technologies and AI,
-					helping companies modernize their infrastructure and adopt
+					, where he leads developer relations in the EMEA region,
+					focusing on cloud-native technologies and AI, helping
+					companies modernize their infrastructure and adopt
 					innovative solutions. He is also the founder of{" "}
 					<Link
 						href="https://www.wemakedevs.org"
