@@ -1,7 +1,3 @@
-"use client";
-
-import { useEffect, useState } from "react";
-
 import { cn } from "@/lib/utils";
 import type { CoruseRegisterProps } from "@/types";
 import { ViewContainer } from "../ui/view-container";
@@ -11,26 +7,10 @@ const CourseRegister = ({
 	title,
 	...props
 }: CoruseRegisterProps) => {
-	const [iFrameHeight, setIFrameHeight] = useState(650);
-
-	useEffect(() => {
-		const windowWidth = window.innerWidth;
-
-		if (windowWidth < 350) {
-			setIFrameHeight(1000);
-		} else if (windowWidth < 400) {
-			setIFrameHeight(900);
-		} else if (windowWidth < 500) {
-			setIFrameHeight(800);
-		} else {
-			setIFrameHeight(700);
-		}
-	}, []);
-
 	return (
 		<section
 			id="register"
-			className={cn("py-16 md:py-20 lg:py-24 bg-gray-50", className)}
+			className={cn("py-16 bg-gray-50", className)}
 			{...props}
 		>
 			<ViewContainer>
@@ -42,7 +22,7 @@ const CourseRegister = ({
 						{title ?? "Enrol for free to never miss an update!"}
 					</h2>
 				</div>
-				<div className="flex justify-center items-center py-8 md:py-9 lg:py-10">
+				<div className="flex justify-center items-center py-4">
 					<iframe
 						src={
 							"https://techwithkunal-register.vercel.app/main.html"
@@ -50,7 +30,7 @@ const CourseRegister = ({
 						width="100%"
 						scrolling="no"
 						className="border-none overflow-hidden"
-						height={iFrameHeight}
+						height={400}
 						title="Register in the course now!"
 					/>
 				</div>
