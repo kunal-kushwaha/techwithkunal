@@ -18,12 +18,12 @@ const fontSerif = Source_Serif_4({
 export const metadata: Metadata = {
 	title: "Kunal Kushwaha",
 	description:
-		"Kunal is DevRel manager at Civo, CNCF Ambassador and a GitHub star.",
+		"Kunal is Senior Developer Advocate at CAST AI, CNCF Ambassador and a GitHub star.",
 	metadataBase: new URL("https://techwithkunal.com"),
 	openGraph: {
 		title: "Kunal Kushwaha",
 		description:
-			"Kunal is DevRel manager at Civo, CNCF Ambassador and a GitHub star.",
+			"Kunal is Senior Developer Advocate at CAST AI, CNCF Ambassador and a GitHub star.",
 		url: "https://techwithkunal.com",
 		siteName: "Kunal Kushwaha",
 		images: {

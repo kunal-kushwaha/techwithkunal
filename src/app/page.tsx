@@ -47,7 +47,7 @@ export default function Home() {
 				<HeaderDescription>
 					Kunal Kushwaha is a Senior Developer Advocate at{" "}
 					<Link
-						href="https://cast.ai/"
+						href="https://cast.ai/?ref_id=289"
 						className="underline hover:no-underline"
 						target="_blank"
 						rel="noreferrer noopener"
