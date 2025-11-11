@@ -3,6 +3,7 @@ import {
 	courseDevops,
 	courseDsa,
 	courseGit,
+	courseInterview,
 	courseSinglestore,
 	testimonialAnuragh,
 	testimonialEkjot,
@@ -12,6 +13,7 @@ import {
 	testimonialSajjan,
 	testimonialSiva,
 } from "@/assets";
+
 import {
 	bootdevAuthor,
 	bootdevLogo,
@@ -689,6 +691,20 @@ export const COURSES: CoursesInfo = [
 		link: "https://www.youtube.com/watch?v=apGV9Kg7ics",
 		introVideoEmbedLink:
 			"https://www.youtube.com/embed/apGV9Kg7ics?si=2uR5qBk46yPyHLeT",
+		resources: [],
+		syllabus: [],
+		hasPage: false,
+	},
+	{
+		title: "Interviews",
+		description:
+			"Exclusive interviews with tech leaders! Dive into the latest tech trends, future of technology, and innovative strategies with industry experts",
+		slug: "",
+		about: "",
+		image: courseInterview,
+		link: "https://www.youtube.com/playlist?list=PL9gnSGHSqcnqFVqQJYeXYC07yzWZzDAPq",
+		introVideoEmbedLink:
+			"https://www.youtube.com/embed/videoseries?si=7-JaVtPoxaDeQPrL&amp;list=PL9gnSGHSqcnqFVqQJYeXYC07yzWZzDAPq",
 		resources: [],
 		syllabus: [],
 		hasPage: false,

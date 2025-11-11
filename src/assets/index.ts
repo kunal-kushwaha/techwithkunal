@@ -1,3 +1,4 @@
+import courseInterview from "./Course-interview.png";
 import companyAdobe from "./company_adobe.svg";
 import companyAmazon from "./company_amazon.svg";
 import companyBlackrock from "./company_blackrock.svg";
@@ -51,6 +52,7 @@ export {
 	testimonialIrffan,
 	courseDsa,
 	courseGit,
+	courseInterview,
 	courseDevops,
 	courseSinglestore,
 	courseCloudMonitoring,
