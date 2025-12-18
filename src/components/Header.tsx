@@ -12,7 +12,7 @@ import { ViewContainer } from "./ui/view-container";
 const Header = ({ className, children, ...props }: HeaderProps) => {
 	return (
 		<header className={cn(className, "py-6 md:py-12 lg:py-20")} {...props}>
-			<ViewContainer className="relative lg:pr-[450px]">
+			<ViewContainer className="relative">
 				<div className="lg:min-h-[400px] flex flex-col lg:block">
 					{children}
 				</div>
@@ -76,7 +76,8 @@ const HeaderImage = ({ className, src, alt, ...props }: HeaderImageProps) => {
 			height={500}
 			className={cn(
 				className,
-				"mt-6 lg:mt-0 mb-8 lg:mb-0 rounded-full object-cover aspect-square w-[250px] h-[250px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] mx-auto lg:mx-0 lg:absolute lg:right-0 lg:top-0 shadow-2xl shadow-black/10 hover:shadow-3xl hover:shadow-black/20 transition-shadow duration-300 order-first lg:order-none",
+				"mt-6 lg:mt-0 mb-8 lg:mb-0 rounded-full object-cover aspect-square w-[250px] h-[250px] md:w-[350px] md:h-[350px] lg:w-[400px] lg:h-[400px] mx-auto lg:mx-0 lg:absolute lg:right-0 lg:top-0 pointer-events-none
+ shadow-2xl shadow-black/10 hover:shadow-3xl hover:shadow-black/20 transition-shadow duration-300 order-first lg:order-none",
 			)}
 			{...props}
 		/>
