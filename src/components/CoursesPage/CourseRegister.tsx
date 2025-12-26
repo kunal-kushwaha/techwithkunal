@@ -1,12 +1,12 @@
 import { cn } from "@/lib/utils";
-import type { CoruseRegisterProps } from "@/types";
+import type { CourseRegisterProps } from "@/types";
 import { ViewContainer } from "../ui/view-container";
 
 const CourseRegister = ({
 	className,
 	title,
 	...props
-}: CoruseRegisterProps) => {
+}: CourseRegisterProps) => {
 	return (
 		<section
 			id="register"
