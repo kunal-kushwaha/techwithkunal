@@ -90,7 +90,7 @@ export default function Home() {
 						<ArrowDown /> Know more
 					</Link>
 					<Link
-						href="mailto:contact@techwithkunal.com"
+						href="mailto:kunal@wemakedevs.org"
 						className={cn(
 							buttonVariants({ variant: "default", size: "lg" }),
 						)}

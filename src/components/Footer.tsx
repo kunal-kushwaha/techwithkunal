@@ -24,10 +24,10 @@ const Footer = ({ className, ...props }: FooterProps) => {
 							className="w-40 md:48 lg:w-52"
 						/>
 						<Link
-							href="mailto:contact@techwithkunal.com"
+							href="mailto:kunal@wemakedevs.org"
 							className="text-gray-400 mt-4 block"
 						>
-							contact@techwithkunal.com
+							kunal@wemakedevs.org
 						</Link>
 					</div>
 					<div className="grid gap-5 grid-cols-2 md:grid-cols-3 w-full md:w-[70%] lg:w-[60%]">
